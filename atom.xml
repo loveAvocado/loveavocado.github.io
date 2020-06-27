@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Михаил&apos;s Blog</title>
-    <updated>2020-06-27T16:53:04.605Z</updated>
+    <updated>2020-06-27T16:56:42.695Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
-    <subtitle>一切看法，包括一切错误在内……对于迅速取得最真纯的知识来说，都有极大帮助。</subtitle>
+    <subtitle>一切看法，包括一切错误在内，不论是听到的、念到的还是校勘中发现的，对于迅速取得最真纯的知识来说，都有极大帮助。</subtitle>
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Михаил&apos;s Blog</rights>
