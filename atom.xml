@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-06-30T06:22:38.154Z</updated>
+    <updated>2020-07-03T15:01:28.650Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,32 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
+    <entry>
+        <title type="html"><![CDATA[MBP可连接无线网但无法连接到服务器]]></title>
+        <id>https://mihailqian.github.io/post/mbp-ke-lian-jie-wu-xian-wang-dan-wu-fa-lian-jie-dao-fu-wu-qi/</id>
+        <link href="https://mihailqian.github.io/post/mbp-ke-lian-jie-wu-xian-wang-dan-wu-fa-lian-jie-dao-fu-wu-qi/">
+        </link>
+        <updated>2020-07-03T13:59:54.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="问题描述">问题描述</h3>
+<p>无线网连接显示正常；<br>
+可以登录QQ或微信；<br>
+无法登录网页，显示：<br>
+<img src="https://mihailqian.github.io/post-images/1593787620155.png" alt="" loading="lazy"><br>
+即，服务器连接异常？</p>
+<h3 id="问题解决">问题解决</h3>
+<h5 id="方案一修改dns">方案一：修改DNS</h5>
+<p>进入网络设置-高级选项界面，将DNS修改为114.114.114.114或8.8.8.8<br>
+结果反馈：無駄無駄</p>
+<h5 id="方案二修改网络设置">方案二：修改网络设置</h5>
+<p>访达-偏好设置-边栏-勾选「MacBook Pro」后<br>
+<img src="https://mihailqian.github.io/post-images/1593788371047.png" alt="" loading="lazy"><br>
+点击访达&gt;&gt;&gt;MacBook Pro进入以下目录，并删除除了「com.apple.Boot.plist」以外的全部文件<br>
+<img src="https://mihailqian.github.io/post-images/1593788388926.png" alt="" loading="lazy"><br>
+重启电脑<br>
+<img src="https://mihailqian.github.io/post-images/1593788284408.png" alt="" loading="lazy"><br>
+👴青回。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[||| 嗷呜帝国 |||]]></title>
         <id>https://mihailqian.github.io/post/oror-ao-wu-di-guo-oror/</id>
