@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-06T15:20:57.385Z</updated>
+    <updated>2020-07-07T05:32:07.660Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,19 +10,6 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
-    <entry>
-        <title type="html"><![CDATA[雷电·芽衣]]></title>
-        <id>https://mihailqian.github.io/post/lei-dian-ya-yi/</id>
-        <link href="https://mihailqian.github.io/post/lei-dian-ya-yi/">
-        </link>
-        <updated>2020-07-06T14:48:21.000Z</updated>
-        <content type="html"><![CDATA[<p>今天重新游玩了弃坑已久的崩壊３rd，确切的说是昨天在看到新PV<a href="https://www.bilibili.com/video/BV1UT4y1J7xN%22tag%22">罪人挽歌</a>后又重新下载了hk3然后开玩。<br>
-不得不说，我对这种类型的剧情还蛮喜欢的，类似的还有さすけ vs なると，甚至还有「小心超人」？总结一下这些角色的共性会发现，我对于“孤独”、“黑化”、“能力强大”的「反派」角色很喜欢，为什么会这样呢？<br>
-<img src="https://mihailqian.github.io/post-images/1594048769214.png" alt="" loading="lazy"><br>
-<img src="https://mihailqian.github.io/post-images/1594048776254.png" alt="" loading="lazy"><br>
-未完待续。</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Macbook pro「无法连接到服务器」问题解决]]></title>
         <id>https://mihailqian.github.io/post/mbp-ke-lian-jie-wu-xian-wang-dan-wu-fa-lian-jie-dao-fu-wu-qi/</id>
@@ -74,6 +61,21 @@
 学习这些软件已经是一件迫在眉睫的事情了。<br>
 下学期要多接一些新青年的<strong>锅</strong>。（或者，暑假也可）<br>
 语言表达能力也不行，嗐，真是从高中差到大学。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pour la vie]]></title>
+        <id>https://mihailqian.github.io/post/au-xue-xi/</id>
+        <link href="https://mihailqian.github.io/post/au-xue-xi/">
+        </link>
+        <updated>2020-06-27T06:23:40.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="人文背景">人文背景</h1>
+<h2 id="岗位申请要点">岗位申请要点：</h2>
+<p>在简历内容和实际经历不够丰富，或者所学专业与申请岗位不完全匹配的情况下，<strong>可以在教育背景中提到一些与申请岗位相关的课程，体现自己对于申请岗位的知识储备和了解</strong>。<br>
+在开始第一份实习前，可以积极参加校内的学工组织、社团，<strong>学习一些新媒体运营、视频剪辑的相关技能</strong>，丰富简历内容，提升技能点和竞争力；<br>
+投递简历前最好了解一下具体的工作项目内容，以及机构在国内外的知名度和影响力。第一份实习，工作一般都比较基础，各个offer间没有本质区别。所以只要不是对工作内容非常不感兴趣，建议还是在多个offer中<strong>选择知名度较高</strong>的组织。</p>
+<h2 id="实习信息获取">实习信息获取</h2>
+<p>http://www.chinadevelopmentbrief.org.cn</p>
 ]]></content>
     </entry>
 </feed>
