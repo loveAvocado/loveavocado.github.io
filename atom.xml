@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-07T05:32:07.660Z</updated>
+    <updated>2020-07-08T13:44:11.767Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -71,11 +71,16 @@
         <updated>2020-06-27T06:23:40.000Z</updated>
         <content type="html"><![CDATA[<h1 id="人文背景">人文背景</h1>
 <h2 id="岗位申请要点">岗位申请要点：</h2>
-<p>在简历内容和实际经历不够丰富，或者所学专业与申请岗位不完全匹配的情况下，<strong>可以在教育背景中提到一些与申请岗位相关的课程，体现自己对于申请岗位的知识储备和了解</strong>。<br>
-在开始第一份实习前，可以积极参加校内的学工组织、社团，<strong>学习一些新媒体运营、视频剪辑的相关技能</strong>，丰富简历内容，提升技能点和竞争力；<br>
-投递简历前最好了解一下具体的工作项目内容，以及机构在国内外的知名度和影响力。第一份实习，工作一般都比较基础，各个offer间没有本质区别。所以只要不是对工作内容非常不感兴趣，建议还是在多个offer中<strong>选择知名度较高</strong>的组织。</p>
+<ol>
+<li>在简历内容和实际经历不够丰富，或者所学专业与申请岗位不完全匹配的情况下，<strong>可以在教育背景中提到一些与申请岗位相关的课程，体现自己对于申请岗位的知识储备和了解</strong>。</li>
+<li>在开始第一份实习前，可以积极参加校内的学工组织、社团，<strong>学习一些新媒体运营、视频剪辑的相关技能</strong>，丰富简历内容，提升技能点和竞争力；</li>
+<li>投递简历前最好了解一下具体的工作项目内容，以及机构在国内外的知名度和影响力。第一份实习，工作一般都比较基础，各个offer间没有本质区别。所以只要不是对工作内容非常不感兴趣，建议还是在多个offer中<strong>选择知名度较高</strong>的组织。</li>
+</ol>
 <h2 id="实习信息获取">实习信息获取</h2>
-<p>http://www.chinadevelopmentbrief.org.cn</p>
+<ol>
+<li><a href="http://www.chinadevelopmentbrief.org.cn">中国发展简报</a></li>
+<li></li>
+</ol>
 ]]></content>
     </entry>
 </feed>
