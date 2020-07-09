@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-09T04:48:32.986Z</updated>
+    <updated>2020-07-09T15:09:25.607Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,125 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
+    <entry>
+        <title type="html"><![CDATA[Premier 学习]]></title>
+        <id>https://mihailqian.github.io/post/premier-xue-xi/</id>
+        <link href="https://mihailqian.github.io/post/premier-xue-xi/">
+        </link>
+        <updated>2020-07-09T13:59:26.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.bilibili.com/cheese/play/ep68?t=626">Bilibili网课</a></p>
+<h1 id="第一课电子相册案例">第一课：电子相册案例</h1>
+<h3 id="pr获取方式">Pr获取方式：</h3>
+<p>softfare.pku.edu.cn</p>
+<h3 id="准备工作">准备工作</h3>
+<p>构思；<br>
+分门别类保存素材；<br>
+将素材导入Pr后，从素材框右下角新建序列（如果不新建序列而直接将视频素材拖入剪辑框，将导致二次拖入视频后缺少画面）</p>
+<h3 id="基础面板操作及教学">基础面板操作及教学</h3>
+<p>同一时间段的各素材之间有图层的设定<br>
+通过「音频剪辑混合器」或「调音台」可以调整素材的音量；</p>
+<h4 id="剪辑面板下方长条">剪辑面板（下方长条）</h4>
+<p>在剪辑面板按“\”键，面板将自动调节到合适的大小；</p>
+<table>
+<thead>
+<tr>
+<th>图标顺序</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第（1）个图标</td>
+<td></td>
+</tr>
+<tr>
+<td>第（2）个图标「小磁铁」</td>
+<td>吸附工具，开启后不同素材在被拖动至接近的地方时能够自动对其</td>
+</tr>
+<tr>
+<td>第（3）「链接选择项」</td>
+<td>点亮后，视频文件的图像和音频被拖动时能够保持同步</td>
+</tr>
+<tr>
+<td>第（4）个盾形图标</td>
+<td>意为添加标记，在不选中素材的情况下，直接在时间轴上添加标记，在选中素材后可在素材上添加标记（快捷键为M）</td>
+</tr>
+<tr>
+<td>第（5）个图标「🔧」</td>
+<td>一般不点，大部分时候是默认</td>
+</tr>
+</tbody>
+</table>
+<figure data-type="image" tabindex="1"><img src="https://mihailqian.github.io/post-images/1594305463470.png" alt="" loading="lazy"></figure>
+<table>
+<thead>
+<tr>
+<th>图标顺序</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>左边的V1A1</td>
+<td>决定拖入素材时是否现实视频或音频（前述不新建序列会导致V1或A1显示不全）</td>
+</tr>
+<tr>
+<td>🔒</td>
+<td>锁定轨道使之不可被修改</td>
+</tr>
+<tr>
+<td>V1-Vn</td>
+<td>确定各个轨道优先级</td>
+</tr>
+<tr>
+<td>切换同步锁定</td>
+<td></td>
+</tr>
+<tr>
+<td>眼睛</td>
+<td>是否显示素材</td>
+</tr>
+<tr>
+<td>M与S</td>
+<td>mute or solo</td>
+</tr>
+</tbody>
+</table>
+<h4 id="工具栏">工具栏</h4>
+<table>
+<thead>
+<tr>
+<th>图标顺序</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>选择工具</td>
+<td></td>
+</tr>
+<tr>
+<td>剃刀工具（C）</td>
+<td>按住shift+单击左键🉑️沿着时间轴切割多条轨道</td>
+</tr>
+</tbody>
+</table>
+<h4 id="效果控件">效果控件</h4>
+<p>每个素材都有「运动」、「不透明度」与「时间重映射」三个默认属性；<br>
+<strong>批量添加过渡特效</strong>：右键单击效果素材并选择「将所选过渡设置为默认过渡」，然后框选所有素材Command+D；双击过渡效果🉑️调整过渡时长（<strong>批量方法</strong>：编辑-&gt;选项-&gt;时间轴/常规-&gt;修改视频过渡默认持续时间</p>
+<h4 id="复制图片">复制图片</h4>
+<p>command + C ，command+V ；（ctrl）<br>
+按住option然后向上拖动素材；（alt）</p>
+<h4 id="制作边框特效">制作边框特效</h4>
+<p>效果-&gt;视频效果-&gt;透视-&gt;径向阴影（放射阴影）<br>
+注意：刚刚放置效果的时候，素材可能不会发生任何变化，还需要额外<strong>设置参数</strong>；<br>
+<strong>批处理方法</strong>：右键单击已经设置好的素材并选择「复制」，之后框选所有素材（按住shift键可单次多选项目，类似多选文件时的command）并单击「粘贴属性」（command+option+V）；</p>
+<h4 id="添加特效">添加特效</h4>
+<p>将特效文件导入pr，如遇格式不支持🉑️使用QuickTime加以调整；<br>
+之后如遇特效文件为全黑，进入效果控件调整其不透明度，将混合模式改为「滤色」</p>
+<h3 id="上机">上机</h3>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[雷电·芽衣]]></title>
         <id>https://mihailqian.github.io/post/lei-dian-ya-yi/</id>
