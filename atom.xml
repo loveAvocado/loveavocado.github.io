@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-09T15:25:55.721Z</updated>
+    <updated>2020-07-10T15:51:16.028Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -127,6 +127,146 @@
 <p>将特效文件导入pr，如遇格式不支持🉑️使用QuickTime加以调整；<br>
 之后如遇特效文件为全黑，进入效果控件调整其不透明度，将混合模式改为「滤色」</p>
 <h3 id="上机">上机</h3>
+<h1 id="第二课电影混剪">第二课：电影混剪</h1>
+<h3 id="基本思路">基本思路</h3>
+<ol>
+<li>构思；</li>
+<li>整理素材转格式（格式工厂or小丸工具箱）：一般选择x264 84-8bit编码器，CRF设为19（CRF越高视频体积越小，画质越差）</li>
+</ol>
+<h3 id="操作指南">操作指南</h3>
+<h4 id="工程文件详解">工程文件详解</h4>
+<table>
+<thead>
+<tr>
+<th>字幕轨道</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>遮幅</td>
+<td></td>
+</tr>
+<tr>
+<td>构思剪辑</td>
+<td>悠扬：大画面；歌声起：人物画面（进入铺垫状态）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="开始制作">开始制作</h3>
+<h4 id="准备工作-2">准备工作</h4>
+<table>
+<thead>
+<tr>
+<th>步骤</th>
+<th>操作方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>准备工作</td>
+<td>新建序列，帧率25，长宽比1920:1080</td>
+</tr>
+<tr>
+<td>字幕遮盖</td>
+<td>项目-新建项-颜色遮罩；效果-裁剪-拖到<strong>字幕遮盖</strong>上，拖动顶部/底部（一般设置为88%）</td>
+</tr>
+<tr>
+<td>加字幕</td>
+<td>「新版标题」：选中时间轴面面板+Command+T</td>
+</tr>
+<tr>
+<td>标记节奏</td>
+<td>M；按住option键可以标记时间段</td>
+</tr>
+<tr>
+<td>挑选精彩片段I</td>
+<td>将素材拖动至「新建项」，向下拖动「最小化的素材」可实现一目两行</td>
+</tr>
+<tr>
+<td>挑选精彩片段II</td>
+<td>右键单击备选素材-&gt;制作子剪辑/添加到项目</td>
+</tr>
+<tr>
+<td>挑选精彩片段III</td>
+<td>进入精选素材文件夹-在窗口区域点击名字-&gt;【浮动面板】；找一个片段-&gt;拖动截取片段至浮动面板中即可自动生成片段序列</td>
+</tr>
+<tr>
+<td>调节播放速度</td>
+<td>视频播放时按【L】按【K】暂停；【J】倒退；</td>
+</tr>
+<tr>
+<td>调整画质</td>
+<td>画面右下角：【完整】筛选器调整画质：1/2、1/4；</td>
+</tr>
+</tbody>
+</table>
+<figure data-type="image" tabindex="2"><img src="https://mihailqian.github.io/post-images/1594394181364.png" alt="" loading="lazy"></figure>
+<h4 id="节奏性剪辑">节奏性剪辑</h4>
+<table>
+<thead>
+<tr>
+<th>步骤</th>
+<th>操作方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>不启用轨道</td>
+<td>选中轨道-&gt;Shift+E</td>
+</tr>
+<tr>
+<td>卡点</td>
+<td>波峰前1-2帧标记</td>
+</tr>
+</tbody>
+</table>
+<h4 id="细节处理">细节处理</h4>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>详解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>视频过渡</td>
+<td>淡入淡出；</td>
+</tr>
+<tr>
+<td>音效网站</td>
+<td><a href="www.aigei.com">爱给网</a></td>
+</tr>
+<tr>
+<td>图标网站</td>
+<td><a href="https://www.iconfont.cn">alibaba矢量图标库</a></td>
+</tr>
+<tr>
+<td>导出</td>
+<td>这里补充一下，如果发布B站，有比特率限制；不符合B站要求会被2次压制，再好的画面也会变成渣；音频也是一样道理，B站要求4W1，高比特率默认4W8，记得改哦；</td>
+</tr>
+</tbody>
+</table>
+<h4 id="问题解决">问题解决</h4>
+<table>
+<thead>
+<tr>
+<th>问题</th>
+<th>解决方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>视频无法铺满画面</td>
+<td>右键单击素材，点击「缩放为帧大小」</td>
+</tr>
+<tr>
+<td>字幕被吃掉</td>
+<td>效果-&gt; 矢量运动/变换</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     <entry>
