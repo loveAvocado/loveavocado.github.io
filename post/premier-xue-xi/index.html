@@ -1,13 +1,26 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>Premier 学习 |  | Aowu&#39;s Reich</title>
-<link rel="shortcut icon" href="https://mihailqian.github.io/favicon.ico?v=1594396273237">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://mihailqian.github.io/favicon.ico?v=1594435931337">
 <link rel="stylesheet" href="https://mihailqian.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Premier 学习 |  | Aowu&#39;s Reich - Atom Feed" href="https://mihailqian.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -20,98 +33,90 @@ softfare.pku.edu.cn
 分门别类保存素材；
 将素材导入Pr后，从素材框右下角新建序列（如果不新建序列而直接将视频素材拖入剪辑框，将导致二次拖入视频..." />
     <meta name="keywords" content="Adobe,pour la vie" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://mihailqian.github.io">
-  <img class="avatar" src="https://mihailqian.github.io/images/avatar.png?v=1594396273237" alt="">
-  </a>
-  <h1 class="site-title">
-    Aowu&#39;s Reich
-  </h1>
-  <p class="site-description">
-    一切看法，包括一切错误在内，不论是听到的、念到的还是校勘中发现的，对于迅速取得最真纯的知识来说，都有极大帮助。
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://mihailqian.github.io">
+        <img src="https://mihailqian.github.io/images/avatar.png?v=1594435931337" class="site-logo">
+        <h1 class="site-title">Aowu&#39;s Reich</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
+        
+          <a href="/post/priv" class="site-nav">
+            404
+          </a>
+        
       
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-      
-        <a href="/post/priv" class="menu">
-          404
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      一切看法，包括一切错误在内，不论是听到的、念到的还是校勘中发现的，对于迅速取得最真纯的知识来说，都有极大帮助。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mihailqian.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Premier 学习 | 
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-07-09
-              </span>
-              <span>
-                5 min read
-              </span>
-              
-                <a href="https://mihailqian.github.io/tag/0j7TsakZo/" class="post-tag">
-                  # Adobe
-                </a>
-              
-                <a href="https://mihailqian.github.io/tag/-nlimin6F/" class="post-tag">
-                  # pour la vie
-                </a>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Premier 学习 | </h2>
+            <div class="post-date">2020-07-09</div>
             
-              <img class="post-feature-image" src="https://mihailqian.github.io/post-images/premier-xue-xi.png" alt="">
+              <div class="feature-container" style="background-image: url('https://mihailqian.github.io/post-images/premier-xue-xi.png')">
+              </div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p><a href="https://www.bilibili.com/cheese/play/ep68?t=626">Bilibili网课</a></p>
+            <div class="post-content" v-pre>
+              <p><a href="https://www.bilibili.com/cheese/play/ep68?t=626">Bilibili网课</a></p>
 <h1 id="第一课电子相册案例">第一课：电子相册案例</h1>
 <h3 id="pr获取方式">Pr获取方式：</h3>
 <p>softfare.pku.edu.cn</p>
@@ -363,141 +368,91 @@ softfare.pku.edu.cn
 </tbody>
 </table>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li><a href="#%E7%AC%AC%E4%B8%80%E8%AF%BE%E7%94%B5%E5%AD%90%E7%9B%B8%E5%86%8C%E6%A1%88%E4%BE%8B">第一课：电子相册案例</a><br>
-*
-<ul>
-<li><a href="#pr%E8%8E%B7%E5%8F%96%E6%96%B9%E5%BC%8F">Pr获取方式：</a></li>
-<li><a href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">准备工作</a></li>
-<li><a href="#%E5%9F%BA%E7%A1%80%E9%9D%A2%E6%9D%BF%E6%93%8D%E4%BD%9C%E5%8F%8A%E6%95%99%E5%AD%A6">基础面板操作及教学</a>
-<ul>
-<li><a href="#%E5%89%AA%E8%BE%91%E9%9D%A2%E6%9D%BF%E4%B8%8B%E6%96%B9%E9%95%BF%E6%9D%A1">剪辑面板（下方长条）</a></li>
-<li><a href="#%E5%B7%A5%E5%85%B7%E6%A0%8F">工具栏</a></li>
-<li><a href="#%E6%95%88%E6%9E%9C%E6%8E%A7%E4%BB%B6">效果控件</a></li>
-<li><a href="#%E5%A4%8D%E5%88%B6%E5%9B%BE%E7%89%87">复制图片</a></li>
-<li><a href="#%E5%88%B6%E4%BD%9C%E8%BE%B9%E6%A1%86%E7%89%B9%E6%95%88">制作边框特效</a></li>
-<li><a href="#%E6%B7%BB%E5%8A%A0%E7%89%B9%E6%95%88">添加特效</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%8A%E6%9C%BA">上机</a></li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC%E4%BA%8C%E8%AF%BE%E7%94%B5%E5%BD%B1%E6%B7%B7%E5%89%AA">第二课：电影混剪</a><br>
-*
-<ul>
-<li><a href="#%E5%9F%BA%E6%9C%AC%E6%80%9D%E8%B7%AF">基本思路</a></li>
-<li><a href="#%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97">操作指南</a>
-<ul>
-<li><a href="#%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%A6%E8%A7%A3">工程文件详解</a></li>
-</ul>
-</li>
-<li><a href="#%E5%BC%80%E5%A7%8B%E5%88%B6%E4%BD%9C">开始制作</a>
-<ul>
-<li><a href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C-2">准备工作</a></li>
-<li><a href="#%E8%8A%82%E5%A5%8F%E6%80%A7%E5%89%AA%E8%BE%91">节奏性剪辑</a></li>
-<li><a href="#%E7%BB%86%E8%8A%82%E5%A4%84%E7%90%86">细节处理</a></li>
-<li><a href="#%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3">问题解决</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://mihailqian.github.io/tag/0j7TsakZo/" class="tag">
+                    Adobe
+                  </a>
+                
+                  <a href="https://mihailqian.github.io/tag/-nlimin6F/" class="tag">
+                    pour la vie
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://mihailqian.github.io/post/lei-dian-ya-yi/">
+                  <h3 class="post-title">
+                    雷电·芽衣
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://mihailqian.github.io/post/lei-dian-ya-yi/">
-              <h3 class="post-title">
-                雷电·芽衣
-              </h3>
-            </a>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
-        
 
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://mihailqian.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

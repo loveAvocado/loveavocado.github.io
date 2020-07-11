@@ -1,101 +1,113 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>雷电·芽衣 | Aowu&#39;s Reich</title>
-<link rel="shortcut icon" href="https://mihailqian.github.io/favicon.ico?v=1594396273237">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://mihailqian.github.io/favicon.ico?v=1594435931337">
 <link rel="stylesheet" href="https://mihailqian.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="雷电·芽衣 | Aowu&#39;s Reich - Atom Feed" href="https://mihailqian.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
     <meta name="description" content="今天重新游玩了弃坑已久的崩壊３rd，确切的说是昨天在看到新PV罪人挽歌后又重新下载了hk3然后开玩。
 不得不说，我对这种类型的剧情还蛮喜欢的，类似的还有さすけ vs なると，甚至还有「小心超人」？总结一下这些角色的共性会发现，我对于“孤独”..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://mihailqian.github.io">
-  <img class="avatar" src="https://mihailqian.github.io/images/avatar.png?v=1594396273237" alt="">
-  </a>
-  <h1 class="site-title">
-    Aowu&#39;s Reich
-  </h1>
-  <p class="site-description">
-    一切看法，包括一切错误在内，不论是听到的、念到的还是校勘中发现的，对于迅速取得最真纯的知识来说，都有极大帮助。
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://mihailqian.github.io">
+        <img src="https://mihailqian.github.io/images/avatar.png?v=1594435931337" class="site-logo">
+        <h1 class="site-title">Aowu&#39;s Reich</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
+        
+          <a href="/post/priv" class="site-nav">
+            404
+          </a>
+        
       
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-      
-        <a href="/post/priv" class="menu">
-          404
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      一切看法，包括一切错误在内，不论是听到的、念到的还是校勘中发现的，对于迅速取得最真纯的知识来说，都有极大帮助。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mihailqian.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              雷电·芽衣
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-07-06
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">雷电·芽衣</h2>
+            <div class="post-date">2020-07-06</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>今天重新游玩了弃坑已久的崩壊３rd，确切的说是昨天在看到新PV<a href="https://www.bilibili.com/video/BV1UT4y1J7xN%22tag%22">罪人挽歌</a>后又重新下载了hk3然后开玩。<br>
+            <div class="post-content" v-pre>
+              <p>今天重新游玩了弃坑已久的崩壊３rd，确切的说是昨天在看到新PV<a href="https://www.bilibili.com/video/BV1UT4y1J7xN%22tag%22">罪人挽歌</a>后又重新下载了hk3然后开玩。<br>
 不得不说，我对这种类型的剧情还蛮喜欢的，类似的还有さすけ vs なると，甚至还有「小心超人」？总结一下这些角色的共性会发现，我对于“孤独”、“黑化”、“能力强大”的「反派」角色很喜欢，为什么会这样呢？<br>
 <img src="https://mihailqian.github.io/post-images/1594048769214.png" alt="" loading="lazy"><br>
 <img src="https://mihailqian.github.io/post-images/1594048776254.png" alt="" loading="lazy"></p>
@@ -104,102 +116,79 @@
 7-8好图分享<br>
 <img src="https://i0.hdslb.com/bfs/album/4a2bcfcee4a8e6b8bb293b6ba6013a184020451b.jpg@1036w_1e_1c.jpg" alt="" loading="lazy"></p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
             </div>
-          </article>
-        </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://mihailqian.github.io/post/oror-jun-shi-tan-ding-bao-zhi-zhan-oror/">
+                  <h3 class="post-title">
+                    ||| 君士坦丁堡之战 |||
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://mihailqian.github.io/post/oror-jun-shi-tan-ding-bao-zhi-zhan-oror/">
-              <h3 class="post-title">
-                ||| 君士坦丁堡之战 |||
-              </h3>
-            </a>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
-        
 
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://mihailqian.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
+      gitalk.render('gitalk-container')
 
     </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
