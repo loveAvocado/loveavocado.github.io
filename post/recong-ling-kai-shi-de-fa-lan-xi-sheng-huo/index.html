@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | Aowu&#39;s Reich</title>
+<title>Re:从零开始的法兰西生活 | Aowu&#39;s Reich</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,27 @@
 <link rel="stylesheet" href="https://mihailqian.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="一切看法，包括一切错误在内，不论是听到的、念到的还是校勘中发现的，对于迅速取得最真纯的知识来说，都有极大帮助。">
+    <meta name="description" content="嗷嗷快乐站
+语法
+代词提前规律
+如果动词的直接宾语是名词，则名词要放在动词后；如果动词的直接宾语是代词，那么代词放在动词之前；
+名词在前，形容词在后
+Français: un problème important（一个重要的问题）
+否定句
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -94,18 +108,74 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">Re:从零开始的法兰西生活</h2>
+            <div class="post-date">2020-07-11</div>
             
-              <a class="tag" href="https://mihailqian.github.io/tag/0j7TsakZo/">Adobe</a>
+              <div class="feature-container" style="background-image: url('https://mihailqian.github.io/post-images/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo.png')">
+              </div>
             
-              <a class="tag" href="https://mihailqian.github.io/tag/-nlimin6F/">pour la vie</a>
+            <div class="post-content" v-pre>
+              <p><a href="https://mihailqian.github.io">嗷嗷快乐站</a></p>
+<h1 id="语法">语法</h1>
+<h3 id="代词提前规律">代词提前规律</h3>
+<p>如果动词的直接宾语是名词，则名词要放在动词后；如果动词的直接宾语是代词，那么代词放在动词之前；</p>
+<h3 id="名词在前形容词在后">名词在前，形容词在后</h3>
+<p>Français: un problème important（一个重要的问题）</p>
+<h3 id="否定句">否定句</h3>
+<table>
+<thead>
+<tr>
+<th>语法内容</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ne v. pas</td>
+<td>ne pas夹住动词</td>
+</tr>
+</tbody>
+</table>
+<h1 id="词汇">词汇</h1>
+<h4 id="être">être</h4>
+<p>Je suis<br>
+Tu es<br>
+Il est<br>
+Nous sommes<br>
+Vous êtes<br>
+Ils sont</p>
+<h4 id="avoir">avoir</h4>
+<p>J’ai<br>
+Tu as<br>
+Il a<br>
+Nous avons<br>
+Vous avez<br>
+Ils ont</p>
+
+            </div>
             
-              <a class="tag" href="https://mihailqian.github.io/tag/GCUUw1Iq3/">帝国纪年</a>
             
-              <a class="tag" href="https://mihailqian.github.io/tag/mnA8bGYHL/">网络问题</a>
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://mihailqian.github.io/post/premier-xue-xi/">
+                  <h3 class="post-title">
+                    Premier 学习 | 
+                  </h3>
+                </a>
+              </div>
             
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -130,6 +200,29 @@ var app = new Vue({
     hljs.initHighlightingOnLoad()
   </script>
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-11T03:31:27.837Z</updated>
+    <updated>2020-07-11T05:11:31.474Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,50 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
+    <entry>
+        <title type="html"><![CDATA[Re:从零开始的法兰西生活]]></title>
+        <id>https://mihailqian.github.io/post/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo/</id>
+        <link href="https://mihailqian.github.io/post/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo/">
+        </link>
+        <updated>2020-07-11T05:01:11.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://mihailqian.github.io">嗷嗷快乐站</a></p>
+<h1 id="语法">语法</h1>
+<h3 id="代词提前规律">代词提前规律</h3>
+<p>如果动词的直接宾语是名词，则名词要放在动词后；如果动词的直接宾语是代词，那么代词放在动词之前；</p>
+<h3 id="名词在前形容词在后">名词在前，形容词在后</h3>
+<p>Français: un problème important（一个重要的问题）</p>
+<h3 id="否定句">否定句</h3>
+<table>
+<thead>
+<tr>
+<th>语法内容</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ne v. pas</td>
+<td>ne pas夹住动词</td>
+</tr>
+</tbody>
+</table>
+<h1 id="词汇">词汇</h1>
+<h4 id="être">être</h4>
+<p>Je suis<br>
+Tu es<br>
+Il est<br>
+Nous sommes<br>
+Vous êtes<br>
+Ils sont</p>
+<h4 id="avoir">avoir</h4>
+<p>J’ai<br>
+Tu as<br>
+Il a<br>
+Nous avons<br>
+Vous avez<br>
+Ils ont</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Premier 学习 | ]]></title>
         <id>https://mihailqian.github.io/post/premier-xue-xi/</id>
