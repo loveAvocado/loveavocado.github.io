@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-11T08:49:42.721Z</updated>
+    <updated>2020-07-15T04:11:45.743Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
+    <entry>
+        <title type="html"><![CDATA[阅读教程 | 《如何阅读一本书》]]></title>
+        <id>https://mihailqian.github.io/post/yue-du-jiao-cheng-or-lesslessru-he-yue-du-yi-ben-shu-greatergreater/</id>
+        <link href="https://mihailqian.github.io/post/yue-du-jiao-cheng-or-lesslessru-he-yue-du-yi-ben-shu-greatergreater/">
+        </link>
+        <updated>2020-07-12T13:54:43.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re:从零开始的法兰西生活]]></title>
+        <id>https://mihailqian.github.io/post/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo/</id>
+        <link href="https://mihailqian.github.io/post/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo/">
+        </link>
+        <updated>2020-07-11T05:01:11.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Premier 学习 | ]]></title>
         <id>https://mihailqian.github.io/post/premier-xue-xi/</id>
