@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-19T10:03:09.810Z</updated>
+    <updated>2020-07-21T15:35:41.427Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -11,11 +11,11 @@
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
     <entry>
-        <title type="html"><![CDATA[如何解决视野单边主义困境]]></title>
-        <id>https://mihailqian.github.io/post/ru-he-jie-jue-shi-ye-dan-bian-zhu-yi-kun-jing/</id>
-        <link href="https://mihailqian.github.io/post/ru-he-jie-jue-shi-ye-dan-bian-zhu-yi-kun-jing/">
+        <title type="html"><![CDATA[日常收集]]></title>
+        <id>https://mihailqian.github.io/post/shi-bei/</id>
+        <link href="https://mihailqian.github.io/post/shi-bei/">
         </link>
-        <updated>2020-07-19T09:49:41.000Z</updated>
+        <updated>2020-07-17T11:57:01.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[阅读教程 | 《如何阅读一本书》]]></title>
@@ -39,25 +39,11 @@
         <updated>2020-07-09T13:59:26.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[||| 君士坦丁堡之战 |||]]></title>
-        <id>https://mihailqian.github.io/post/oror-jun-shi-tan-ding-bao-zhi-zhan-oror/</id>
-        <link href="https://mihailqian.github.io/post/oror-jun-shi-tan-ding-bao-zhi-zhan-oror/">
-        </link>
-        <updated>2020-07-04T12:42:22.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Macbook pro「无法连接到服务器」问题解决]]></title>
         <id>https://mihailqian.github.io/post/mbp-ke-lian-jie-wu-xian-wang-dan-wu-fa-lian-jie-dao-fu-wu-qi/</id>
         <link href="https://mihailqian.github.io/post/mbp-ke-lian-jie-wu-xian-wang-dan-wu-fa-lian-jie-dao-fu-wu-qi/">
         </link>
         <updated>2020-07-03T13:59:54.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[||| 嗷呜帝国 |||]]></title>
-        <id>https://mihailqian.github.io/post/oror-ao-wu-di-guo-oror/</id>
-        <link href="https://mihailqian.github.io/post/oror-ao-wu-di-guo-oror/">
-        </link>
-        <updated>2020-06-28T15:00:40.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[PLV | 人文背景（智库类实习贴）]]></title>
