@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Introduction à la syntaxe Markdown | Aowu&#39;s Reich</title>
-<link rel="shortcut icon" href="https://mihailqian.github.io/favicon.ico?v=1595580972917">
+<link rel="shortcut icon" href="https://mihailqian.github.io/favicon.ico?v=1595601108289">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mihailqian.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Introduction à la syntaxe Markdown | Aowu&#39;s Reich - Atom Feed" href="https://mihailqian.github.io/atom.xml">
@@ -12,8 +12,11 @@
 
 
     <meta name="description" content="
-这是一篇关于markdown语法介绍的博客～
-! [] ( https://i0.hdslb.com/bfs/album07feebf0ce98b19718735147e033b1e659bb99e2.jpg@4000w_1e.jpg )..." />
+这是一篇关于markdown语法的博客～
+
+什么是Markdown？
+Markdown语言在2004年由约翰·格鲁伯（John Gruber）创设，作为一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+由Markdown编..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -23,7 +26,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://mihailqian.github.io">
-  <img class="avatar" src="https://mihailqian.github.io/images/avatar.png?v=1595580972917" alt="">
+  <img class="avatar" src="https://mihailqian.github.io/images/avatar.png?v=1595601108289" alt="">
   </a>
   <h1 class="site-title">
     Aowu&#39;s Reich
@@ -89,7 +92,7 @@
                 2020-07-23
               </span>
               <span>
-                1 min read
+                6 min read
               </span>
               
             </div>
@@ -97,13 +100,253 @@
             <div class="post-content-wrapper">
               <div class="post-content">
                 <blockquote>
-<p>这是一篇关于markdown语法介绍的博客～<br>
-! [] ( https://i0.hdslb.com/bfs/album07feebf0ce98b19718735147e033b1e659bb99e2.jpg@4000w_1e.jpg )</p>
+<p>这是一篇关于markdown语法的博客～</p>
 </blockquote>
+<h1 id="什么是markdown">什么是Markdown？</h1>
+<p>Markdown语言在2004年由约翰·格鲁伯（John Gruber）创设，作为一种<strong>轻量级标记语言</strong>，它允许人们使用易读易写的纯文本格式编写文档。<br>
+由Markdown编写的文档后缀为 <code>.md</code>或<code>.markdown</code>，可导出HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p>
+<h1 id="编辑器">编辑器</h1>
+<p>基于不同的使用环境，Markdown编辑器被分为：独立软件、平台集成工具（博客、网络社区自带的写作工具）以及插件三类；<br>
+<em>ps.本部分主要参考<a href="https://blog.csdn.net/davidhzq/article/details/100815332">黄志千的CSDN博客</a>，博主细致地比较了多个编辑器的功能，但由于篇幅和精力所限（<s>才不是因为自己太菜了呢</s>），这里只列出一部分（<s>文科生友好型</s>）编辑器</em><br>
+<a href="https://typora.io/">Typora</a>，分为预览模式和源代码模式，将敲代码和预览结合起来；极致简洁，同时支持macOS Windows Linux ;<br>
+<a href="http://25.io/mou/">Mou</a> ，独立软件/免费，对汉字兼容好，但仅有 macOS 版本；🌟<br>
+<a href="http://markdownpad.com/">MarkdownPad</a>分为免费版和专业版，支持Windows；<br>
+<a href="https://atom.io/">Atom</a>:是独立软件也支持插件方式，对程序员友好，但对中文输入法不友好；<br>
+<a href="https://www.zybuluo.com/mdeditor">Cmd Markdown</a>：界面美观的写作工具，同时支持WIndows、macOS和Linux系统，也有web在线创作平台；<br>
+<a href="https://bywordapp.com/">Byword</a>：一款支持iPadOS、iOS和macOS的付费产品；</p>
+<h1 id="markdown语法入门">Markdown语法入门</h1>
+<blockquote>
+<p>Markdown标记语言原始版本只有十几个功能，但现在网络上普遍存在的大多是扩充版，每种版本各个功能的实现方法未必完全相同，下面所列是一些基本操作。</p>
+</blockquote>
+<p><strong>注：以下每一个 · 表示一个空格</strong></p>
+<h3 id="标题">标题</h3>
+<p><code># 一级标题</code>、<code>## 二级标题</code>以此类推 …… ⚠️不同平台支持的标题级数可能不同</p>
+<h3 id="插入代码">插入代码</h3>
+<h4 id="行内代码">行内代码：</h4>
+<p>用反引号&quot;<code>&quot;括住代码，反引号即Tab键上方的键，需要在**英文**输入法下才能输出; ![](https://mihailqian.github.io/post-images/1595593156725.png) 效果展示：</code>Je suis le code`</p>
+<h4 id="缩进代码">缩进代码</h4>
+<figure data-type="image" tabindex="1"><img src="https://mihailqian.github.io/post-images/1595594921530.png" alt="" loading="lazy"></figure>
+<pre><code>some comments
+line 1
+line 2
+line 3
+</code></pre>
+<h4 id="代码块">代码块</h4>
+<figure data-type="image" tabindex="2"><img src="https://mihailqian.github.io/post-images/1595594877915.png" alt="" loading="lazy"></figure>
+<pre><code>code
+</code></pre>
+<h4 id="高亮代码">高亮代码</h4>
+<figure data-type="image" tabindex="3"><img src="https://mihailqian.github.io/post-images/1595595279360.png" alt="" loading="lazy"></figure>
+<pre><code class="language-python">print(&quot;hello world&quot;)
+A=[1,2,3]
+B=[2,4,6]
+C=[m*n for m in A for n in B]
+print(C)
+</code></pre>
+<h3 id="分割线">分割线</h3>
+<p><code>---</code></p>
+<hr>
+<p><code>***</code></p>
+<hr>
+<h3 id="文本样式">文本样式</h3>
+<p><code>**BOLD**</code> &gt;&gt;&gt; <strong>BOLD</strong><br>
+<code>__BOLD__</code> &gt;&gt;&gt; <strong>BOLD</strong><br>
+<code>*ITALIC*</code> &gt;&gt;&gt; <em>ITALIC</em><br>
+<code>_ITALIC_</code> &gt;&gt;&gt;  <em>ITALIC</em><br>
+<strong>加粗</strong>和<em>斜体</em>可以 <em><strong>嵌套</strong></em> ；<br>
+<code>~~DELETE~~</code> &gt;&gt; <s>DELETE</s> (~英文输入法下的波浪号和反引号是一个键)</p>
+<h3 id="无序列表">无序列表</h3>
+<p>句首键入<code>+·</code>、<code>-·</code>、<code>*·</code>（·表示空格）即可生成无序列表，效果：</p>
+<ul>
+<li>无序列表1
+<ul>
+<li>按住tab键可以缩进</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>我是列表2</li>
+</ul>
+<ul>
+<li>我是列表3</li>
+</ul>
+<h3 id="有序列表">有序列表</h3>
+<p>操作方法与Word类似，直接键入<code>1.·</code>即可生成有序列表，效果：</p>
+<ol>
+<li>Bonjour!</li>
+<li>Salut!</li>
+<li>Bonsoir~</li>
+</ol>
+<p>不输入空格的效果：<br>
+1.bonjour<br>
+按Enter键后也🈚️自动生成</p>
+<h3 id="插入图片">插入图片</h3>
+<h4 id="插入图片url">插入图片URL</h4>
+<p>基本语法：<code>![](URL)</code>圆括弧内插入图片链接，图片URL获取方法：<br>
+<img src="https://mihailqian.github.io/post-images/1595597595628.png" alt="" loading="lazy"></p>
+<h4 id="插入本地图片">插入本地图片</h4>
+<p>基本语法：<code>![](图片路径)</code><br>
+示例：<code>![](https://mihailqian.github.io/post-images/1595598538174.png)</code><br>
+<img src="https://mihailqian.github.io/post-images/1595598538174.png" alt="" loading="lazy"></p>
+<h4 id="调整图片大小">调整图片大小</h4>
+<p>由于Markdown语法兼容HTML，故可以借助HTML语法调整所插入的图片的大小；<br>
+<code>&lt;img src=&quot;图片链接&quot; width=&quot;宽度值&quot; height=&quot;高度值&quot;&gt;&lt;/img&gt;</code></p>
+<p>插入图片本地路径：<code>&lt;img src=&quot;file:///Users/calvinqian/Documents/Gridea/post-images/1595597595628.png&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;/img&gt;</code><br>
+<img src="file:///Users/calvinqian/Documents/Gridea/post-images/1595597595628.png" width="500" height="500"></img><br>
+插入图片链接：<code>&lt;img src=&quot;https://img.moegirl.org.cn/common/d/dd/Hanser255.jpg&quot; width=&quot;300&quot; height=&quot;300&quot;&gt;&lt;/img&gt;</code><br>
+<img src="https://img.moegirl.org.cn/common/d/dd/Hanser255.jpg" width="300" height="300"></img></p>
+<h4 id="图床">图床</h4>
+<p>了解不多，放一篇<a href="https://zhuanlan.zhihu.com/p/20380531">知乎答案：如何使用七牛云做为图床？</a></p>
+<h4 id="血的教训">血的教训</h4>
+<p><code>[空的链接不能点！！]()</code><br>
+至少在Gridea上不行！！！！<br>
+未经保存的内容灰飞烟灭 ！！！</p>
+<h3 id="插入链接">插入链接</h3>
+<p><code>[自定义链接名称](网页链接)</code><br>
+示例：<code>[世界一流大学](https://www.tsinghua.edu.cn)</code><br>
+<a href="https://www.pku.edu.cn">世界超一流大学</a></p>
+<h3 id="引用">引用</h3>
+<p>句子前输入<code>&gt;·</code>（输入&gt;后按空格）即可</p>
+<blockquote>
+<p>Prolétaires de tous les Pays, Nations et Peuples opprimés, UNISSEZ VOUS !</p>
+</blockquote>
+<h3 id="表格">表格</h3>
+<h4 id="常规">常规</h4>
+<figure data-type="image" tabindex="4"><img src="https://mihailqian.github.io/post-images/1595599855851.png" alt="" loading="lazy"></figure>
+<table>
+<thead>
+<tr>
+<th>title</th>
+<th>column</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>蜀国</td>
+<td>张飞</td>
+</tr>
+<tr>
+<td>魏国</td>
+<td>曹丕</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️实测表格内无法显示代码块和列表</p>
+<h4 id="进阶x">进阶（x</h4>
+<p>在表头下方的分隔线标记中加入 <code>:</code>，即可标记下方单元格内容的对齐方式：<br>
+<code>:---</code> 代表左对齐<br>
+<code>:--:</code> 代表居中对齐<br>
+<code>---:</code> 代表右对齐<br>
+示例：<br>
+<img src="https://mihailqian.github.io/post-images/1595600291307.png" alt="" loading="lazy"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Left</th>
+<th style="text-align:center">Center</th>
+<th style="text-align:right">Right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Gauche</td>
+<td style="text-align:center">Moyen</td>
+<td style="text-align:right">Droit</td>
+</tr>
+<tr>
+<td style="text-align:left">G</td>
+<td style="text-align:center">M</td>
+<td style="text-align:right">D</td>
+</tr>
+</tbody>
+</table>
+<h3 id="兼容html的语法">兼容HTML的语法</h3>
+<h4 id="字体调整">字体调整</h4>
+<p><code>&lt;font size=8&gt;要调整的字&lt;/font&gt;</code><br>
+<img src="https://mihailqian.github.io/post-images/1595600536398.png" alt="" loading="lazy"><br>
+<font size=8>我是放大字</font><br>
+<img src="https://mihailqian.github.io/post-images/1595600541219.png" alt="" loading="lazy"><br>
+<font size=0.25>我是缩小字</font></p>
+<h4 id="图片大小">图片大小</h4>
+<p>由于Markdown语法兼容HTML，故可以借助HTML语法调整所插入的图片的大小；<br>
+<code>&lt;img src=&quot;图片链接&quot; width=&quot;宽度值&quot; height=&quot;高度值&quot;&gt;&lt;/img&gt;</code></p>
+<h4 id="水平线">水平线</h4>
+<p>水平线: <code>&lt;hr /&gt;</code> <hr /></p>
+<h4 id="换行符">换行符</h4>
+<p>我不是换行符 Bonjour<br>
+不换行<br>
+换行符: <code>&lt;br /&gt;</code>（类似于python的<code>\n</code>） <br /><br>
+换行了吗？</p>
+<hr>
+<p>通过<a href="https://c.runoob.com/front-end/712">RUNOOB在线编辑器</a>上手体验Markdown！</p>
+<h1 id="一些应用场合">一些应用场合</h1>
+<p>撰写电子书，如Gitbook<br>
+撰写网站帮助文档</p>
+<p>撰写博客，如在Gridea<br>
+课堂笔记，如Notion、Evernote<br>
+支持Markdown语法的软件还有<a href="https://cn.bing.com/search?q=%E6%94%AF%E6%8C%81markdown%E7%9A%84&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=n&amp;form=QBLH&amp;sp=-1&amp;pq=%E6%94%AF%E6%8C%81markdown%E7%9A%84&amp;sc=8-11&amp;sk=&amp;cvid=2104A9DF12C74F1D9C0C5B3B77E45235">很多</a>，故不再赘述<br>
+……</p>
+<h1 id="markdown官方文档">Markdown官方文档</h1>
+<p><a href="https://daringfireball.net/projects/markdown/syntax">创始人John Gruber的Markdown介绍 </a></p>
+<h1 id="参考资料">参考资料</h1>
+<p><a href="https://www.runoob.com/markdown/md-tutorial.html">RUNOOB.com</a><br>
+<a href="https://blog.csdn.net/davidhzq/article/details/100815332">黄志千的CSDN博客</a><br>
+<a href="https://c.runoob.com/front-end/712">RUNOOB在线编辑器</a><br>
+<a href="https://www.cnblogs.com/yuxiuyan/p/6044682.html">mybichu的博小站</a></p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li><a href="#%E4%BB%80%E4%B9%88%E6%98%AFmarkdown">什么是Markdown？</a></li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8">编辑器</a></li>
+<li><a href="#markdown%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8">Markdown语法入门</a><br>
+*
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
+<li><a href="#%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81">插入代码</a>
+<ul>
+<li><a href="#%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81">行内代码：</a></li>
+<li><a href="#%E7%BC%A9%E8%BF%9B%E4%BB%A3%E7%A0%81">缩进代码</a></li>
+<li><a href="#%E4%BB%A3%E7%A0%81%E5%9D%97">代码块</a></li>
+<li><a href="#%E9%AB%98%E4%BA%AE%E4%BB%A3%E7%A0%81">高亮代码</a></li>
+</ul>
+</li>
+<li><a href="#%E5%88%86%E5%89%B2%E7%BA%BF">分割线</a></li>
+<li><a href="#%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F">文本样式</a></li>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87">插入图片</a>
+<ul>
+<li><a href="#%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87url">插入图片URL</a></li>
+<li><a href="#%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87">插入本地图片</a></li>
+<li><a href="#%E8%B0%83%E6%95%B4%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F">调整图片大小</a></li>
+<li><a href="#%E5%9B%BE%E5%BA%8A">图床</a></li>
+<li><a href="#%E8%A1%80%E7%9A%84%E6%95%99%E8%AE%AD">血的教训</a></li>
+</ul>
+</li>
+<li><a href="#%E6%8F%92%E5%85%A5%E9%93%BE%E6%8E%A5">插入链接</a></li>
+<li><a href="#%E5%BC%95%E7%94%A8">引用</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a>
+<ul>
+<li><a href="#%E5%B8%B8%E8%A7%84">常规</a></li>
+<li><a href="#%E8%BF%9B%E9%98%B6x">进阶（x</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%BC%E5%AE%B9html%E7%9A%84%E8%AF%AD%E6%B3%95">兼容HTML的语法</a>
+<ul>
+<li><a href="#%E5%AD%97%E4%BD%93%E8%B0%83%E6%95%B4">字体调整</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F">图片大小</a></li>
+<li><a href="#%E6%B0%B4%E5%B9%B3%E7%BA%BF">水平线</a></li>
+<li><a href="#%E6%8D%A2%E8%A1%8C%E7%AC%A6">换行符</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8%E5%9C%BA%E5%90%88">一些应用场合</a></li>
+<li><a href="#markdown%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3">Markdown官方文档</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
+</ul>
+
               </div>
             </div>
           </article>
