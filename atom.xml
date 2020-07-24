@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-07-22T14:16:24.208Z</updated>
+    <updated>2020-07-24T08:56:16.768Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
+    <entry>
+        <title type="html"><![CDATA[开坑：如何搜集信息]]></title>
+        <id>https://mihailqian.github.io/post/kai-keng-ru-he-sou-ji-xin-xi/</id>
+        <link href="https://mihailqian.github.io/post/kai-keng-ru-he-sou-ji-xin-xi/">
+        </link>
+        <updated>2020-07-23T22:53:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction à la syntaxe Markdown]]></title>
+        <id>https://mihailqian.github.io/post/introduction-a-la-syntaxe-markdown/</id>
+        <link href="https://mihailqian.github.io/post/introduction-a-la-syntaxe-markdown/">
+        </link>
+        <updated>2020-07-23T06:00:56.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[日常收集]]></title>
         <id>https://mihailqian.github.io/post/shi-bei/</id>
@@ -25,7 +39,7 @@
         <updated>2020-07-12T13:54:43.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Re:从零开始的法兰西生活]]></title>
+        <title type="html"><![CDATA[Re:0 Apprenez le français à partir de zéro]]></title>
         <id>https://mihailqian.github.io/post/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo/</id>
         <link href="https://mihailqian.github.io/post/recong-ling-kai-shi-de-fa-lan-xi-sheng-huo/">
         </link>
