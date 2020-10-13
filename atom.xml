@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Aowu&apos;s Reich</title>
-    <updated>2020-08-06T09:15:39.219Z</updated>
+    <updated>2020-10-13T05:23:51.503Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aowu&apos;s Reich</rights>
+    <entry>
+        <title type="html"><![CDATA[Re:0 Apprenez l' allemand  à partir de zéro]]></title>
+        <id>https://mihailqian.github.io/post/l&apos; allemand /</id>
+        <link href="https://mihailqian.github.io/post/l&apos; allemand /">
+        </link>
+        <updated>2020-10-13T05:20:25.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于依赖无能]]></title>
         <id>https://mihailqian.github.io/post/guan-yu-yi-lai-wu-neng/</id>
