@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Kindergarten!</title>
-    <updated>2021-01-01T13:51:06.839Z</updated>
+    <updated>2021-01-01T13:52:47.716Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -32,13 +32,6 @@
         <updated>2020-08-06T09:13:57.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[开坑：如何搜集信息]]></title>
-        <id>https://mihailqian.github.io/post/kai-keng-ru-he-sou-ji-xin-xi/</id>
-        <link href="https://mihailqian.github.io/post/kai-keng-ru-he-sou-ji-xin-xi/">
-        </link>
-        <updated>2020-07-23T22:53:22.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introduction à la syntaxe Markdown]]></title>
         <id>https://mihailqian.github.io/post/introduction-a-la-syntaxe-markdown/</id>
         <link href="https://mihailqian.github.io/post/introduction-a-la-syntaxe-markdown/">
@@ -53,7 +46,7 @@
         <updated>2020-07-17T11:57:01.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[阅读教程 | 《如何阅读一本书》]]></title>
+        <title type="html"><![CDATA[讀書筆記 丨《如何阅读一本书》]]></title>
         <id>https://mihailqian.github.io/post/yue-du-jiao-cheng-or-lesslessru-he-yue-du-yi-ben-shu-greatergreater/</id>
         <link href="https://mihailqian.github.io/post/yue-du-jiao-cheng-or-lesslessru-he-yue-du-yi-ben-shu-greatergreater/">
         </link>
