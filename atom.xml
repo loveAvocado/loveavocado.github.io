@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
-    <title>Kindergarten!</title>
-    <updated>2021-01-01T13:54:20.533Z</updated>
+    <title>米哈伊尔之邦</title>
+    <updated>2021-01-02T01:03:56.509Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
-    <subtitle>&lt;font color=blue&gt;Willkommen bitte &lt;/font&gt;</subtitle>
+    <subtitle>&lt;font color=blue&gt;欢迎来到米哈伊尔的邦国 &lt;/font&gt;</subtitle>
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Kindergarten!</rights>
+    <rights>All rights reserved 2021, 米哈伊尔之邦</rights>
     <entry>
         <title type="html"><![CDATA[非阿斯伯格綜合征不完全指南]]></title>
         <id>https://mihailqian.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/</id>
