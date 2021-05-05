@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>渡鴉的空中小島</title>
-    <updated>2021-04-25T09:56:01.031Z</updated>
+    <updated>2021-05-05T16:51:12.956Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 渡鴉的空中小島</rights>
+    <entry>
+        <title type="html"><![CDATA[读书笔记丨他们以为他们是自由的  1933-1945年间的德国人]]></title>
+        <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/</id>
+        <link href="https://mihailqian.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/">
+        </link>
+        <updated>2021-05-05T16:50:49.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[读书笔记丨《女权主义在中国的翻译历程》]]></title>
         <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-lesslessnu-quan-zhu-yi-zai-zhong-guo-de-fan-yi-li-cheng-greatergreater/</id>
