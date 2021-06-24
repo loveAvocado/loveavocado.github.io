@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>渡鴉的空中小島</title>
-    <updated>2021-06-24T14:18:12.025Z</updated>
+    <updated>2021-06-24T14:30:34.141Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -11,120 +11,11 @@
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 渡鴉的空中小島</rights>
     <entry>
-        <title type="html"><![CDATA[test()]]></title>
-        <id>https://mihailqian.github.io/post/test/</id>
-        <link href="https://mihailqian.github.io/post/test/">
-        </link>
-        <updated>2021-06-24T14:16:42.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[读书笔记丨裙带资本主义：菲律宾与韩国的腐败与发展]]></title>
         <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/</id>
         <link href="https://mihailqian.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/">
         </link>
         <updated>2021-06-24T06:33:19.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="腐敗模式矩陣">腐敗模式矩陣</h1>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>有凝聚力的『國家』</th>
-<th>凝聚力低的『國家』</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>數量少、集中的『商界』</td>
-<td>I：相互扶持<br />類型：PD共謀（政商共謀）<br />程度：中等</td>
-<td>II：尋租<br />類型：自下而上<br />程度：大</td>
-</tr>
-<tr>
-<td>數量大、分散的『商界』</td>
-<td>III：掠奪性國家<br />類型：自上而下<br />程度：大</td>
-<td>IV：放任自由<br />類型：剩餘類型<br />程度：小</td>
-</tr>
-</tbody>
-</table>
-<h1 id="韓國與菲律賓的政商關係">韓國與菲律賓的政商關係</h1>
-<p>作者認為，韓國和菲律賓都存在相當規模的腐敗（金錢政治），而兩國不同的政商關係是理解兩國金錢政治模式的關鍵。</p>
-<blockquote>
-<p>政商關係是理解金錢政治模式的關鍵，不管是政治精英還是經濟精英，誰的手中掌握了過多的權力，都會濫用無度，其表現形式就是尋租和腐敗。——p.16</p>
-</blockquote>
-<h2 id="before-democratization">Before Democratization</h2>
-<p><strong>韓國</strong></p>
-<ul>
-<li>在1980s以前的韓國金錢政治中，政府和商界的力量是均勢的<mark>I型腐败模式</mark>，強勢的商業階層和有凝聚力的國家之間形成了一種迫不得已的『共謀關係』，對腐敗規模構成了限制。政府和商界的關係能讓彼此受益，但任何一方都無法亞服另一方，儘管雙方都抱怨對方沒有合法性，但卻不得不彼此倚靠需要。這使得韓國的腐敗受到一定程度的限制。</li>
-</ul>
-<p><strong>菲律賓</strong></p>
-<ul>
-<li>在菲律賓，二者的博弈則呈現出鐘擺的態勢，擁有絕對權力的一方將竭力斂財，直到下一個輪迴時財運發生逆轉。歷史上，菲律賓曾先後經歷商界強勢期（<mark>II型腐败模式</mark>）和政府強勢期（<mark>III型腐败模式</mark>）。自下而上的腐敗行為和自上而下的掠奪行為分別滋生。只有在馬科斯政權衰落和20世紀80年代中期經濟混亂使，菲律宾才显现出真正变革的迹象。</li>
-</ul>
-<h2 id="after-democratization">After Democratization</h2>
-<p><strong>韩国</strong></p>
-<ul>
-<li>民主化后，政治任务需要真正为获得选票开展党争，同时政府遏制和地址商业部门要求的能力遭到削弱。民主化严重制约了政府约束财阀的能力。</li>
-<li>韩国腐败模式从相互扶持的<mark>I型模式</mark>向<mark>II型腐败模式</mark>转变，少数韩国大企业得以凭借其庞大体量不受任何市场力量的约束，作出了越来越多的冒险决定，“过量的”民主同依然存在的共谋性政商关系则导致了越来越多的无效决策。</li>
-<li>有助于增强社会力量的民主化，使原本保持均势的政商关系被扭转为寻租腐败模式，为日后的经济危机埋下了祸根。</li>
-</ul>
-<p><strong>菲律宾</strong></p>
-<ul>
-<li>菲律宾腐败模式则逐渐转向<mark>IV型模式</mark>。</li>
-<li>有助于增强社会力量的民主化，促使原本极端的政商关系趋向均衡。</li>
-<li>历史原因也是一个重要因素。</li>
-</ul>
-<p>*冷知识：EDSA(Epofanio de los Santos Avenue)是马尼拉一条大道的缩写，此路后来成为菲律宾民主运动的象征。而著名游戏Grand Theft Auto V中的虚拟城市叫做Los Santos</p>
-]]></summary>
-        <content type="html"><![CDATA[<h1 id="腐敗模式矩陣">腐敗模式矩陣</h1>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>有凝聚力的『國家』</th>
-<th>凝聚力低的『國家』</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>數量少、集中的『商界』</td>
-<td>I：相互扶持<br />類型：PD共謀（政商共謀）<br />程度：中等</td>
-<td>II：尋租<br />類型：自下而上<br />程度：大</td>
-</tr>
-<tr>
-<td>數量大、分散的『商界』</td>
-<td>III：掠奪性國家<br />類型：自上而下<br />程度：大</td>
-<td>IV：放任自由<br />類型：剩餘類型<br />程度：小</td>
-</tr>
-</tbody>
-</table>
-<h1 id="韓國與菲律賓的政商關係">韓國與菲律賓的政商關係</h1>
-<p>作者認為，韓國和菲律賓都存在相當規模的腐敗（金錢政治），而兩國不同的政商關係是理解兩國金錢政治模式的關鍵。</p>
-<blockquote>
-<p>政商關係是理解金錢政治模式的關鍵，不管是政治精英還是經濟精英，誰的手中掌握了過多的權力，都會濫用無度，其表現形式就是尋租和腐敗。——p.16</p>
-</blockquote>
-<h2 id="before-democratization">Before Democratization</h2>
-<p><strong>韓國</strong></p>
-<ul>
-<li>在1980s以前的韓國金錢政治中，政府和商界的力量是均勢的<mark>I型腐败模式</mark>，強勢的商業階層和有凝聚力的國家之間形成了一種迫不得已的『共謀關係』，對腐敗規模構成了限制。政府和商界的關係能讓彼此受益，但任何一方都無法亞服另一方，儘管雙方都抱怨對方沒有合法性，但卻不得不彼此倚靠需要。這使得韓國的腐敗受到一定程度的限制。</li>
-</ul>
-<p><strong>菲律賓</strong></p>
-<ul>
-<li>在菲律賓，二者的博弈則呈現出鐘擺的態勢，擁有絕對權力的一方將竭力斂財，直到下一個輪迴時財運發生逆轉。歷史上，菲律賓曾先後經歷商界強勢期（<mark>II型腐败模式</mark>）和政府強勢期（<mark>III型腐败模式</mark>）。自下而上的腐敗行為和自上而下的掠奪行為分別滋生。只有在馬科斯政權衰落和20世紀80年代中期經濟混亂使，菲律宾才显现出真正变革的迹象。</li>
-</ul>
-<h2 id="after-democratization">After Democratization</h2>
-<p><strong>韩国</strong></p>
-<ul>
-<li>民主化后，政治任务需要真正为获得选票开展党争，同时政府遏制和地址商业部门要求的能力遭到削弱。民主化严重制约了政府约束财阀的能力。</li>
-<li>韩国腐败模式从相互扶持的<mark>I型模式</mark>向<mark>II型腐败模式</mark>转变，少数韩国大企业得以凭借其庞大体量不受任何市场力量的约束，作出了越来越多的冒险决定，“过量的”民主同依然存在的共谋性政商关系则导致了越来越多的无效决策。</li>
-<li>有助于增强社会力量的民主化，使原本保持均势的政商关系被扭转为寻租腐败模式，为日后的经济危机埋下了祸根。</li>
-</ul>
-<p><strong>菲律宾</strong></p>
-<ul>
-<li>菲律宾腐败模式则逐渐转向<mark>IV型模式</mark>。</li>
-<li>有助于增强社会力量的民主化，促使原本极端的政商关系趋向均衡。</li>
-<li>历史原因也是一个重要因素。</li>
-</ul>
-<p>*冷知识：EDSA(Epofanio de los Santos Avenue)是马尼拉一条大道的缩写，此路后来成为菲律宾民主运动的象征。而著名游戏Grand Theft Auto V中的虚拟城市叫做Los Santos</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[读书笔记丨他们以为他们是自由的  1933-1945年间的德国人]]></title>
