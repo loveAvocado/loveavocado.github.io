@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
-    <title>渡鴉的空中小島</title>
-    <updated>2021-12-27T13:24:33.175Z</updated>
+    <title>raven&apos;s cyber world</title>
+    <updated>2021-12-27T13:37:24.643Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
     <subtitle>&lt;font color=blue&gt;我们都是宇宙的孩子，都是一些会动的星尘，但是我们却能反映这同一个宇宙的本质，甚至一窥支配宇宙的规律。&lt;/font&gt;</subtitle>
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 渡鴉的空中小島</rights>
+    <rights>All rights reserved 2021, raven&apos;s cyber world</rights>
     <entry>
         <title type="html"><![CDATA[读书报告丨《独裁者手册》：三个维度和五条法则]]></title>
         <id>https://mihailqian.github.io/post/rr-handbook_of_dictator/</id>
