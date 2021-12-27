@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Raven Cybeyte</title>
-    <updated>2021-12-27T17:06:43.929Z</updated>
+    <updated>2021-12-27T17:34:40.259Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -58,6 +58,32 @@ About me? Just a usual undergraduate, love metal music. Rammstein is my one of f
         <updated>2021-04-16T06:34:38.000Z</updated>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Rumous: A Reading Note]]></title>
+        <id>https://mihailqian.github.io/post/rr_rumous/</id>
+        <link href="https://mihailqian.github.io/post/rr_rumous/">
+        </link>
+        <updated>2021-02-23T17:20:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feminism by Li, YinHe: A Reading Note]]></title>
+        <id>https://mihailqian.github.io/post/feminism-by-li-yinhe-a-reading-note/</id>
+        <link href="https://mihailqian.github.io/post/feminism-by-li-yinhe-a-reading-note/">
+        </link>
+        <updated>2021-01-26T15:30:16.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A brief introduction to ASD ]]></title>
         <id>https://mihailqian.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/</id>
         <link href="https://mihailqian.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/">
@@ -65,24 +91,10 @@ About me? Just a usual undergraduate, love metal music. Rammstein is my one of f
         <updated>2021-01-01T13:45:51.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Introduction à la syntaxe Markdown]]></title>
-        <id>https://mihailqian.github.io/post/introduction-a-la-syntaxe-markdown/</id>
-        <link href="https://mihailqian.github.io/post/introduction-a-la-syntaxe-markdown/">
+        <title type="html"><![CDATA[Making Democracy Work by Putnam, Robert D. et al: A Reading Report]]></title>
+        <id>https://mihailqian.github.io/post/making-democracy-work-by-putnam-robert-d-et-al-a-reading-report/</id>
+        <link href="https://mihailqian.github.io/post/making-democracy-work-by-putnam-robert-d-et-al-a-reading-report/">
         </link>
-        <updated>2020-07-23T06:00:56.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[讀書筆記 丨《如何阅读一本书》]]></title>
-        <id>https://mihailqian.github.io/post/yue-du-jiao-cheng-or-lesslessru-he-yue-du-yi-ben-shu-greatergreater/</id>
-        <link href="https://mihailqian.github.io/post/yue-du-jiao-cheng-or-lesslessru-he-yue-du-yi-ben-shu-greatergreater/">
-        </link>
-        <updated>2020-07-12T13:54:43.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Premier 学习 | ]]></title>
-        <id>https://mihailqian.github.io/post/premier-xue-xi/</id>
-        <link href="https://mihailqian.github.io/post/premier-xue-xi/">
-        </link>
-        <updated>2020-07-09T13:59:26.000Z</updated>
+        <updated>2020-11-29T17:29:04.000Z</updated>
     </entry>
 </feed>
