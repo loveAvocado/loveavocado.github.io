@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Raven Cybeyte</title>
-    <updated>2021-12-28T09:37:00.752Z</updated>
+    <updated>2022-01-01T07:53:51.622Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -10,7 +10,14 @@
 About me? Just a usual undergraduate, love metal music. Rammstein is my one of favourite.</subtitle>
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Raven Cybeyte</rights>
+    <rights>All rights reserved 2022, Raven Cybeyte</rights>
+    <entry>
+        <title type="html"><![CDATA[My 2021 Review  (updating)]]></title>
+        <id>https://mihailqian.github.io/post/my-2021-review-updating/</id>
+        <link href="https://mihailqian.github.io/post/my-2021-review-updating/">
+        </link>
+        <updated>2022-01-01T06:56:34.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Attention Deficit Hyperactivity Disorder: A Reading Note]]></title>
         <id>https://mihailqian.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/</id>
@@ -89,12 +96,5 @@ About me? Just a usual undergraduate, love metal music. Rammstein is my one of f
 <p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
 </blockquote>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A brief introduction to ASD ]]></title>
-        <id>https://mihailqian.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/</id>
-        <link href="https://mihailqian.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/">
-        </link>
-        <updated>2021-01-01T13:45:51.000Z</updated>
     </entry>
 </feed>
