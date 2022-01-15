@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mihailqian.github.io</id>
     <title>Raven Cybeyte</title>
-    <updated>2022-01-01T07:59:57.758Z</updated>
+    <updated>2022-01-15T08:19:39.510Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mihailqian.github.io"/>
     <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
@@ -11,6 +11,13 @@ About me? Just a usual undergraduate, love metal music. Rammstein is my one of f
     <logo>https://mihailqian.github.io/images/avatar.png</logo>
     <icon>https://mihailqian.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Raven Cybeyte</rights>
+    <entry>
+        <title type="html"><![CDATA[杂评丨民营医院停业整顿事件]]></title>
+        <id>https://mihailqian.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/</id>
+        <link href="https://mihailqian.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/">
+        </link>
+        <updated>2022-01-15T08:10:59.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My 2021 Review  (updating)]]></title>
         <id>https://mihailqian.github.io/post/my-2021-review-updating/</id>
@@ -80,21 +87,6 @@ About me? Just a usual undergraduate, love metal music. Rammstein is my one of f
         <summary type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Feminism by Li, YinHe: A Reading Note]]></title>
-        <id>https://mihailqian.github.io/post/feminism-by-li-yinhe-a-reading-note/</id>
-        <link href="https://mihailqian.github.io/post/feminism-by-li-yinhe-a-reading-note/">
-        </link>
-        <updated>2021-01-26T15:30:16.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
