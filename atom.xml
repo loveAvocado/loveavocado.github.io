@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mihailqian.github.io</id>
-    <title>Raven Cybeyte</title>
-    <updated>2022-03-22T14:32:17.274Z</updated>
+    <id>https://loveavocado.github.io</id>
+    <title>沙耶と絵里子</title>
+    <updated>2022-06-07T21:05:08.390Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mihailqian.github.io"/>
-    <link rel="self" href="https://mihailqian.github.io/atom.xml"/>
-    <subtitle>Raven Cybeyte, composited by the word cyber and byte, my first private and uncensored blog. I gonna upload my reading reports and some reflections of human society, here. Have fun. 
-About me? Just a usual undergraduate, love metal music. Rammstein is my one of favourite.</subtitle>
-    <logo>https://mihailqian.github.io/images/avatar.png</logo>
-    <icon>https://mihailqian.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, Raven Cybeyte</rights>
+    <link rel="alternate" href="https://loveavocado.github.io"/>
+    <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
+    <subtitle>ここはサヤと絵里子の世界。</subtitle>
+    <logo>https://loveavocado.github.io/images/avatar.png</logo>
+    <icon>https://loveavocado.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 沙耶と絵里子</rights>
     <entry>
         <title type="html"><![CDATA[Scales]]></title>
-        <id>https://mihailqian.github.io/post/scales/</id>
-        <link href="https://mihailqian.github.io/post/scales/">
+        <id>https://loveavocado.github.io/post/scales/</id>
+        <link href="https://loveavocado.github.io/post/scales/">
         </link>
         <updated>2022-03-22T14:18:42.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[杂评丨民营医院停业整顿事件]]></title>
-        <id>https://mihailqian.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/</id>
-        <link href="https://mihailqian.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/">
+        <id>https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/</id>
+        <link href="https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/">
         </link>
         <updated>2022-01-15T08:10:59.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[My 2021 Review  (updating)]]></title>
-        <id>https://mihailqian.github.io/post/my-2021-review-updating/</id>
-        <link href="https://mihailqian.github.io/post/my-2021-review-updating/">
+        <id>https://loveavocado.github.io/post/my-2021-review-updating/</id>
+        <link href="https://loveavocado.github.io/post/my-2021-review-updating/">
         </link>
         <updated>2022-01-01T06:56:34.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Attention Deficit Hyperactivity Disorder: A Reading Note]]></title>
-        <id>https://mihailqian.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/</id>
-        <link href="https://mihailqian.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/">
+        <id>https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/</id>
+        <link href="https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/">
         </link>
         <updated>2021-12-28T04:38:08.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[《独裁者手册》：三个维度和五条法则]]></title>
-        <id>https://mihailqian.github.io/post/rr-handbook_of_dictator/</id>
-        <link href="https://mihailqian.github.io/post/rr-handbook_of_dictator/">
+        <id>https://loveavocado.github.io/post/rr-handbook_of_dictator/</id>
+        <link href="https://loveavocado.github.io/post/rr-handbook_of_dictator/">
         </link>
         <updated>2021-11-22T11:07:31.000Z</updated>
         <summary type="html"><![CDATA[<p>本书作者摒弃了民主专制二分法的策略，但某种程度上大获胜联盟&amp;小获胜联盟的区分也可以视作民主或专制。作者的这种分析路径，给世人一种警醒——即民主和专制领导者在本质上是一致的，因此需要普通公民捍卫自己的权利&amp;权力，以遏制这些领导者们的滥权念头和行为。</p>
@@ -52,36 +51,36 @@ About me? Just a usual undergraduate, love metal music. Rammstein is my one of f
     </entry>
     <entry>
         <title type="html"><![CDATA[《叫魂：1768年中国妖术大恐慌》]]></title>
-        <id>https://mihailqian.github.io/post/du-shu-bao-gao-gun-lesslessjiao-hun-1768-nian-zhong-guo-yao-zhu-da-kong-huang-greatergreater/</id>
-        <link href="https://mihailqian.github.io/post/du-shu-bao-gao-gun-lesslessjiao-hun-1768-nian-zhong-guo-yao-zhu-da-kong-huang-greatergreater/">
+        <id>https://loveavocado.github.io/post/du-shu-bao-gao-gun-lesslessjiao-hun-1768-nian-zhong-guo-yao-zhu-da-kong-huang-greatergreater/</id>
+        <link href="https://loveavocado.github.io/post/du-shu-bao-gao-gun-lesslessjiao-hun-1768-nian-zhong-guo-yao-zhu-da-kong-huang-greatergreater/">
         </link>
         <updated>2021-11-20T08:20:31.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[读书笔记丨裙带资本主义：菲律宾与韩国的腐败与发展]]></title>
-        <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/</id>
-        <link href="https://mihailqian.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/">
+        <id>https://loveavocado.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/</id>
+        <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/">
         </link>
         <updated>2021-06-24T06:33:19.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[读书笔记丨他们以为他们是自由的  1933-1945年间的德国人]]></title>
-        <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/</id>
-        <link href="https://mihailqian.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/">
+        <id>https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/</id>
+        <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/">
         </link>
         <updated>2021-05-05T16:50:49.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[读书笔记丨《女权主义在中国的翻译历程》]]></title>
-        <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-lesslessnu-quan-zhu-yi-zai-zhong-guo-de-fan-yi-li-cheng-greatergreater/</id>
-        <link href="https://mihailqian.github.io/post/du-shu-bi-ji-gun-lesslessnu-quan-zhu-yi-zai-zhong-guo-de-fan-yi-li-cheng-greatergreater/">
+        <id>https://loveavocado.github.io/post/du-shu-bi-ji-gun-lesslessnu-quan-zhu-yi-zai-zhong-guo-de-fan-yi-li-cheng-greatergreater/</id>
+        <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-lesslessnu-quan-zhu-yi-zai-zhong-guo-de-fan-yi-li-cheng-greatergreater/">
         </link>
         <updated>2021-04-25T09:23:05.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[《脑中魅影》]]></title>
-        <id>https://mihailqian.github.io/post/du-shu-bi-ji-gun-lesslessnao-zhong-mei-ying-greatergreater/</id>
-        <link href="https://mihailqian.github.io/post/du-shu-bi-ji-gun-lesslessnao-zhong-mei-ying-greatergreater/">
+        <id>https://loveavocado.github.io/post/du-shu-bi-ji-gun-lesslessnao-zhong-mei-ying-greatergreater/</id>
+        <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-lesslessnao-zhong-mei-ying-greatergreater/">
         </link>
         <updated>2021-04-16T06:34:38.000Z</updated>
     </entry>
