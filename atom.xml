@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>沙耶と絵里子</title>
-    <updated>2022-06-08T09:11:28.928Z</updated>
+    <updated>2022-06-08T19:27:21.983Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 沙耶と絵里子</rights>
+    <entry>
+        <title type="html"><![CDATA[ 葛兆光：重評90年代日本中國學的新觀念──讀溝口雄三《方法としての中國》]]></title>
+        <id>https://loveavocado.github.io/post/uzdu9itna/</id>
+        <link href="https://loveavocado.github.io/post/uzdu9itna/">
+        </link>
+        <updated>2022-06-08T17:38:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>溝口關於理論與方法的一些想法，已經有中國學者介紹和推薦，不過，在《方法としての中國》的中譯本出版以後，由於這一事關理論與方法的問題已經引入到大陸和台灣，成了中國學術界自己的問題，所以似乎還需要更細緻的討論和有力的評價。因為我在幾年以前曾經讀過日文本，留下一些筆記，這次拿到中文譯本，又仔細看了一遍，於是在這裡發表一些讀後感，也許有些不同的意見，與其說是批評，不如說是我自己閱讀後的困惑。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>溝口關於理論與方法的一些想法，已經有中國學者介紹和推薦，不過，在《方法としての中國》的中譯本出版以後，由於這一事關理論與方法的問題已經引入到大陸和台灣，成了中國學術界自己的問題，所以似乎還需要更細緻的討論和有力的評價。因為我在幾年以前曾經讀過日文本，留下一些筆記，這次拿到中文譯本，又仔細看了一遍，於是在這裡發表一些讀後感，也許有些不同的意見，與其說是批評，不如說是我自己閱讀後的困惑。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[杂评丨民营医院停业整顿事件]]></title>
         <id>https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/</id>
@@ -79,21 +90,6 @@
         <summary type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Feminism by Li, YinHe: A Reading Note]]></title>
-        <id>https://loveavocado.github.io/post/feminism-by-li-yinhe-a-reading-note/</id>
-        <link href="https://loveavocado.github.io/post/feminism-by-li-yinhe-a-reading-note/">
-        </link>
-        <updated>2021-01-26T15:30:16.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
