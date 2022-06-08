@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>沙耶と絵里子</title>
-    <updated>2022-06-07T22:03:54.081Z</updated>
+    <updated>2022-06-08T00:13:16.336Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -11,25 +11,11 @@
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 沙耶と絵里子</rights>
     <entry>
-        <title type="html"><![CDATA[Scales]]></title>
-        <id>https://loveavocado.github.io/post/scales/</id>
-        <link href="https://loveavocado.github.io/post/scales/">
-        </link>
-        <updated>2022-03-22T14:18:42.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[杂评丨民营医院停业整顿事件]]></title>
         <id>https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/</id>
         <link href="https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/">
         </link>
         <updated>2022-01-15T08:10:59.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My 2021 Review  (updating)]]></title>
-        <id>https://loveavocado.github.io/post/my-2021-review-updating/</id>
-        <link href="https://loveavocado.github.io/post/my-2021-review-updating/">
-        </link>
-        <updated>2022-01-01T06:56:34.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Attention Deficit Hyperactivity Disorder: A Reading Note]]></title>
@@ -83,5 +69,31 @@
         <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-lesslessnao-zhong-mei-ying-greatergreater/">
         </link>
         <updated>2021-04-16T06:34:38.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rumous: A Reading Note]]></title>
+        <id>https://loveavocado.github.io/post/rr_rumous/</id>
+        <link href="https://loveavocado.github.io/post/rr_rumous/">
+        </link>
+        <updated>2021-02-23T17:20:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feminism by Li, YinHe: A Reading Note]]></title>
+        <id>https://loveavocado.github.io/post/feminism-by-li-yinhe-a-reading-note/</id>
+        <link href="https://loveavocado.github.io/post/feminism-by-li-yinhe-a-reading-note/">
+        </link>
+        <updated>2021-01-26T15:30:16.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>女性主義的理論千頭萬緒，歸根結底就是一句話：在全人類實現男女平等。</p>
+</blockquote>
+]]></content>
     </entry>
 </feed>
