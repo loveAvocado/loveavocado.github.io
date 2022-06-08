@@ -1,180 +1,121 @@
-<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-<title>
-    沙耶と絵里子
-</title>
-<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
-<meta name="author" content="">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="https://loveavocado.github.io/styles/main.css" />
-<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A brief introduction to ASD  | 沙耶と絵里子</title>
+<meta name="description" content="ここはサヤと絵里子の世界。" />
+<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico">
+<link rel="stylesheet" href="https://loveavocado.github.io/styles/main.css">
 
-        <link rel="stylesheet" href="/assets/media/css/style.min.css" />
-        <script src="/assets/media/script/tocbot.min.js"></script>
-        <script src="/assets/media/script/script.min.js"></script>
-        <script src="/assets/media/script/icon.min.js"></script>
-        
-            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
-            <link rel="stylesheet" href="" />
-            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
-            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
-            
-</head>
-
-<body>
-    <div class="wrapper">
-        <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo">
-                <a href="https://loveavocado.github.io">
-                    沙耶と絵里子
-                </a>
-            </div>
-            <div id="tp-weather-widget"></div>
-            <div class="menu navbar-right">
-                
-                    <a class="menu-item" href="/">
-                        Home
-                    </a>
-                    
-                    <a class="menu-item" href="/archives">
-                        Archive
-                    </a>
-                    
-                    <a class="menu-item" href="/tags">
-                        Tag
-                    </a>
-                    
-                    <a class="menu-item" href="/post/about">
-                        About
-                    </a>
-                    
-                        <input id="switch_default" type="checkbox" class="switch_default">
-                        <label for="switch_default" class="toggleBtn"></label>
-            </div>
-            <form id="gridea-search-form" data-update="1654679097915" action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-            </form>
+<script src="https://loveavocado.github.io/media/js/jquery.min.js"></script>
+<script src="https://loveavocado.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://loveavocado.github.io/media/js/aos.js"></script>
+<script src="https://loveavocado.github.io/media/js/pace.min.js"></script>
+<script src="https://loveavocado.github.io/media/js/view-image.min.js"></script>
+<script src="https://loveavocado.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://loveavocado.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="壹、非阿斯伯格綜合征不完全指南
+一、神經典型發育者
+在一般的對話過程中，聽者被期待做出一些表示專注的明顯信號，比如，點頭、同情的表情或發出“嗯、啊、是”等聲音，來表達自己正在專心聆聽。此外，應該同時伴有手勢和身體動作，特別是談話的雙方有良好..." />
+    <meta name="keywords" content="reading_note,ASD" />
+    <script src="https://loveavocado.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://loveavocado.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
         </div>
-    </nav>
-
-    
-        <nav class="navbar-mobile" id="nav-mobile">
-            <div class="container">
-                <div class="navbar-header">
-                    <div>
-                        <a href="https://loveavocado.github.io">
-                            沙耶と絵里子
-                        </a>
-                        <!--en-->
-                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
-                        <!--zh-->
-                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
-                    </div>
-                    <form id="gridea-search-form" data-update="1654679097915" action="/search/index.html">
-                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-                    </form>
-                    <!--en-->
-                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
-                    <!--zh-->
-                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
-
-                </div>
-                <div class="menu" id="mobile-menu">
-                    
-                        <a class="menu-item" href="/">
-                            Home
-                        </a>
-                        
-                        <a class="menu-item" href="/archives">
-                            Archive
-                        </a>
-                        
-                        <a class="menu-item" href="/tags">
-                            Tag
-                        </a>
-                        
-                        <a class="menu-item" href="/post/about">
-                            About
-                        </a>
-                        
-                </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://loveavocado.github.io"><img src="" alt=""></a>
             </div>
-        </nav>
-</header>
-<script>
-    var mobileBtn = function f() {
-        var toggleMenu = document.getElementById("menu-toggle-en");
-        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+            <!-- start: .main-nav -->
 
-        var mobileMenu = document.getElementById("mobile-menu");
-        if (toggleMenu.display != "none") {
-            if (toggleMenu.classList.contains("active")) {
-                toggleMenu.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        } else if (toggleMenu_zh.display != "none") {
-            if (toggleMenu_zh.classList.contains("active")) {
-                toggleMenu_zh.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu_zh.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        }
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://loveavocado.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/" class="menu">
+                      Home
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      Archive
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      Tag
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/post/about" class="menu">
+                      About
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1654679346780" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
 
-    }
-</script>
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-            <div class="main">
-                <div class="container">
-                    <article class="post-wrap">
-                        <header class="post-header">
-                            <h1 class="post-title">
-                                A brief introduction to ASD 
-                            </h1>
-                            
-                                    <!--zh-->
-                                    <div class="post-meta zh">
-                                        &#x4F5C;&#x8005;:
-                                        <a itemprop="author" rel="author" href="/">
-                                            沙耶と絵里子
-                                        </a>
-                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">01-01-2021</a></span>
-                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
-                                    href="#">13.1
-                                    &#x5206;&#x949F;</a></span>
-                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">3901</a></span>
-                                        
-                                            <span class="post-category">&#x5206;&#x7C7B;:
-                                
-                                <a href="https://loveavocado.github.io/tag/xe-oFAJwI/">reading_note</a>
-                                
-                                <a href="https://loveavocado.github.io/tag/stwVVf2nV/">ASD</a>
-                                
-                            </span>
-                                            
-                                    </div>
-                                    
-                        </header>
-                        
-                            <img class="post-feature-image" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2418443515,354211506&amp;fm=26&amp;gp=0.jpg" alt="">
-                          
-                        <div class="post-content">
-                            <h1 id="壹-非阿斯伯格綜合征不完全指南">壹、非阿斯伯格綜合征不完全指南</h1>
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2418443515,354211506&amp;fm=26&amp;gp=0.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="01-01-2021"><i class="fa fa-calendar"></i><span class="lately">1 年前</span></time>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://loveavocado.github.io/tag/xe-oFAJwI/" class="ctag ctag-0 ctag-xe-oFAJwI" aria-label="">reading_note</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/stwVVf2nV/" class="ctag ctag-1 ctag-stwVVf2nV" aria-label="">ASD</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">A brief introduction to ASD </h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <h1 id="壹-非阿斯伯格綜合征不完全指南">壹、非阿斯伯格綜合征不完全指南</h1>
 <h2 id="一-神經典型發育者">一、神經典型發育者</h2>
 <p>在一般的對話過程中，聽者被期待做出一些表示專注的明顯信號，比如，點頭、同情的表情或發出“嗯、啊、是”等聲音，來<mark>表達自己正在專心聆聽</mark>。此外，應該同時伴有手勢和身體動作，特別是談話的雙方有良好的關係。</p>
 <p>從兒童早期開始，一般人會根據自己對社會階層和規範的認識，以及對他人想法和感受的感知，認識到自己必須<mark>抑制某些意見</mark>。即，<mark>優先考慮對方的感受</mark>，而非終於事實和真相。（這是擁有健全的心理理論能力的體現）</p>
@@ -275,127 +216,263 @@
 <p>困難：承認錯誤、交朋友、接受別人的意見、處理憤怒情緒、書寫能力、知道別人在想什麼、避免被捉弄、表現出其他家庭成員所期待的愛意行為、應對突發的噪音、清晰表達自己的想法。</p>
 <p>良好預後的重要因素：在兒童早期確診；本人和家人都接受診斷；擁有一位良師；本人能夠通過閱讀其他同類撰寫的自傳和自助書籍以獲取相關的知識；父母、伴侶或朋友能夠提供情感和實際的支持幫助；特殊興趣或工作成就能夠彌補社交生活的困難；本人能夠接受自己的長處和缺點；大腦可能有一個自然恢復的過程；</p>
 
-                        </div>
-                        
-                                
-                                                    
-                                                                    <!--Share-->
-                                                                    <span style="margin-right:15px">
-                        <i class="post-share"></i>
-                        <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://loveavocado.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://loveavocado.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/&sharesource=qzone&title=A brief introduction to ASD &pics=https://loveavocado.github.io/images/avatar.png?v=1654679097915&summary="><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://loveavocado.github.io/post/fei-a-si-bo-ge-zong-he-zheng-bu-wan-quan-zhi-nan/&sharesource=weibo&title=A brief introduction to ASD  + " - " + &pic="https://loveavocado.github.io/images/avatar.png?v=1654679097915 "><i class="fa fa-weibo "></i></a>
-
-                                                                    </span>
-                                                                    
-                                                                            <!--zh-->
-                                                                            <section class="post-tags zh ">
-                                                                                <div>
-                                                                                    <span>&#x6807;&#x7B7E;:</span>
-                                                                                    <span class="tag ">
-                        
-                        
-                        <a href="https://loveavocado.github.io/tag/xe-oFAJwI/">#
-                    reading_note
-                        </a>
-                        
-                        <a href="https://loveavocado.github.io/tag/stwVVf2nV/">#
-                    ASD
-                        </a>
-                        
-                            
-                                </span>
-                                                                                </div>
-                                                                                <div>
-                                                                                    <a href="javascript:window.history.back();">
-                        &#x8FD4;&#x56DE;</a>
-                                                                                    <span>&dot;</span>
-                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
-                                                                                </div>
-                                                                            </section>
-
-                                                                            
-                                                                                <!---->
-                                                                                <section class="post-nav">
-                                                                                    
-                                                                                        <a class="prev" rel="prev" href="https://loveavocado.github.io/post/feminism-by-li-yinhe-a-reading-note/">
-                                                                                            Feminism by Li, YinHe: A Reading Note
-                                                                                        </a>
-                                                                                        
-                                                                                            
-                                                                                                <a class="next" rel="next" href="https://loveavocado.github.io/post/making-democracy-work-by-putnam-robert-d-et-al-a-reading-report/">
-                                                                                                    Making Democracy Work by Putnam, Robert D. et al: A Reading Report
-                                                                                                </a>
-                                                                                                
-                                                                                </section>
-                    </article>
                 </div>
-                
-                                            
-            </div>
-    </div>
-    </div>
-    </div>
-    
-        <footer id="footer" class="footer">
-            <div class="copyright">
-                
-                        Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
-                            
-                                    <div style="width:300px;margin:0 auto; padding:0px 0;">
-                                        <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-                                            <img src="https://yanxuan.nosdn.127.net/b610ced5ac6a0e25cf6edf5606c69775.png" style="float:left;">
-                                            <p id="icpinfo" style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;"></p>
-                                        </a>
-                                    </div>
-                                    
-                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
-            <path
-                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
-                fill="#93b5cf"></path>
-        </svg>
-                                        沙耶と絵里子 &copy;Copyright
-                                            <script>
-                                                var date = new Date();
-                                                document.write("" + date.getFullYear());
-                                            </script>
-                                            | Powered by
-                                            <a href="" target="_blank">
-                                                
-                                            </a>
-            </div>
-            <div id="update" style="display:none;">
-                
-            </div>
-            
-                    <script>
-                        var port = '';
-                        
-                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
-                    </script>
-        </footer>
-        
-                <script>
-                    
-                    
-                    
-                    var icp = document.getElementById('icpinfo');
-                    icp.innerText = "";
-                    
-                    getStar();
-                    hljs.initHighlighting();
-                    console.clear();
-                    
-                    var newDate = new Date();
-                    newDate.setTime(1654679097915);
-                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
-                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
-                </script>
-        </div>
-</body>
-<script>
-    scroll();
-</script>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
 
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://loveavocado.github.io/media/images/eeux7R96v.jpg');"></div>
+                 <a href="https://loveavocado.github.io/post/feminism-by-li-yinhe-a-reading-note/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="01-26-2021">01-26-2021</time>
+                  <h4 class="title white no-margin">Feminism by Li, YinHe: A Reading Note</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://loveavocado.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://loveavocado.github.io/media/images/ivIb3EqKh.jpg');"></div>
+                 <a href="https://loveavocado.github.io/post/making-democracy-work-by-putnam-robert-d-et-al-a-reading-report/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="11-30-2020">11-30-2020</time>
+                  <h4 class="title white no-margin">Making Democracy Work by Putnam, Robert D. et al: A Reading Report</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://loveavocado.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+              </div>
+              <div class="clear"></div>
+            
+
+            </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="01-15-2022">01-15-2022</time>
+                      <h4 class="title usmall">
+                        <a href="https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/">杂评丨民营医院停业整顿事件</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="12-28-2021">12-28-2021</time>
+                      <h4 class="title usmall">
+                        <a href="https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/">Attention Deficit Hyperactivity Disorder: A Reading Note</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://loveavocado.github.io/post/rr-handbook_of_dictator/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('http://upload.stnn.cc/2014/0310/1394411116550.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="11-22-2021">11-22-2021</time>
+                      <h4 class="title usmall">
+                        <a href="https://loveavocado.github.io/post/rr-handbook_of_dictator/">《独裁者手册》：三个维度和五条法则</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://loveavocado.github.io/tag/4-hKFPlA-/" class="ctag ctag-0 ctag-4-hKFPlA-" aria-label="">Comment</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/OPmhEYZyuO/" class="ctag ctag-1 ctag-OPmhEYZyuO" aria-label="">Social Issue</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/qJEZqXbhJC/" class="ctag ctag-2 ctag-qJEZqXbhJC" aria-label="">Covid-19</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/3A2l5T5pYS/" class="ctag ctag-3 ctag-3A2l5T5pYS" aria-label="">politics</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/RoAKBTtv8/" class="ctag ctag-4 ctag-RoAKBTtv8" aria-label="">ADHD</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/3_K7l3PKpZ/" class="ctag ctag-5 ctag-3_K7l3PKpZ" aria-label="">Psychiatry</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/1F4axBQdi/" class="ctag ctag-6 ctag-1F4axBQdi" aria-label="">PoliticalScience</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/DEsQVO4w-K/" class="ctag ctag-7 ctag-DEsQVO4w-K" aria-label="">Reading Report</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/1nLPBqxq2/" class="ctag ctag-8 ctag-1nLPBqxq2" aria-label="">Korea</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/VR86iQvTf/" class="ctag ctag-9 ctag-VR86iQvTf" aria-label="">Oversea China Research</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/NwqN_HxpTx/" class="ctag ctag-10 ctag-NwqN_HxpTx" aria-label="">History of Qing</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/B4iLlBZcJA/" class="ctag ctag-11 ctag-B4iLlBZcJA" aria-label="">Anthropology</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/NEsiR4KutV/" class="ctag ctag-12 ctag-NEsiR4KutV" aria-label="">Politics</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/ZavqGSim6c/" class="ctag ctag-13 ctag-ZavqGSim6c" aria-label="">Philip A. Kuhn</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/IelkVkQtQ/" class="ctag ctag-14 ctag-IelkVkQtQ" aria-label="">Political Science</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/AICnb0Ydx/" class="ctag ctag-15 ctag-AICnb0Ydx" aria-label="">Corruption</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/uKb-dVbKQh/" class="ctag ctag-16 ctag-uKb-dVbKQh" aria-label="">Reading Note</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/KbK-eamutd/" class="ctag ctag-17 ctag-KbK-eamutd" aria-label="">Comparative Politics</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/00P26vorfG/" class="ctag ctag-18 ctag-00P26vorfG" aria-label="">讀書筆記</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/FvmBq31AZ/" class="ctag ctag-19 ctag-FvmBq31AZ" aria-label="">Neurology</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/90F__4sXm/" class="ctag ctag-20 ctag-90F__4sXm" aria-label="">Communication</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/an7_HLmabQ/" class="ctag ctag-21 ctag-an7_HLmabQ" aria-label="">rumour</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/eeux7R96v/" class="ctag ctag-22 ctag-eeux7R96v" aria-label="">Feminism</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/xe-oFAJwI/" class="ctag ctag-23 ctag-xe-oFAJwI" aria-label="">reading_note</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/stwVVf2nV/" class="ctag ctag-24 ctag-stwVVf2nV" aria-label="">ASD</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/ivIb3EqKh/" class="ctag ctag-25 ctag-ivIb3EqKh" aria-label="">political_science</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/hDJ-a_1ESg/" class="ctag ctag-26 ctag-hDJ-a_1ESg" aria-label="">democracy</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/XaReq3RT2/" class="ctag ctag-27 ctag-XaReq3RT2" aria-label="">reading_report</a>
+                    
+                      <a href="https://loveavocado.github.io/tag/4Jka7EX1O/" class="ctag ctag-28 ctag-4Jka7EX1O" aria-label="">markdown</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://loveavocado.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">沙耶と絵里子</a></h4>
+                    <p class="founder">ここはサヤと絵里子の世界。</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://loveavocado.github.io"><img src="" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 17 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
+
+        
+
+      
+    <script src="https://loveavocado.github.io/media/js/functions-post.js"></script>
+
+    </div>
+    <!-- end: #wrapper -->
+  </body>
 </html>
