@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>沙耶と絵里子</title>
-    <updated>2022-06-10T04:14:14.614Z</updated>
+    <updated>2022-06-10T07:10:03.302Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -12,6 +12,21 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 沙耶と絵里子</rights>
+    <entry>
+        <title type="html"><![CDATA[时间复杂度 & 空间复杂度]]></title>
+        <id>https://loveavocado.github.io/post/OmwKeNHH8/</id>
+        <link href="https://loveavocado.github.io/post/OmwKeNHH8/">
+        </link>
+        <updated>2022-06-10T06:56:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>时间复杂度（Time Complexity）是用来评价程序运行花费时间的指标 <code>T(n)</code> ；<br>
+空间复杂度（Space Complexity）是用来评价程序运行占用内存空间的指标 <code>S(n)</code> 。<br>
+这两个指标被用作评价算法的优劣，而非实际运算时间和内存占用。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>时间复杂度（Time Complexity）是用来评价程序运行花费时间的指标 <code>T(n)</code> ；<br>
+空间复杂度（Space Complexity）是用来评价程序运行占用内存空间的指标 <code>S(n)</code> 。<br>
+这两个指标被用作评价算法的优劣，而非实际运算时间和内存占用。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ 葛兆光：重評90年代日本中國學的新觀念──讀溝口雄三《方法としての中國》]]></title>
         <id>https://loveavocado.github.io/post/uzdu9itna/</id>
@@ -82,16 +97,5 @@
         <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-lesslessnao-zhong-mei-ying-greatergreater/">
         </link>
         <updated>2021-04-16T06:34:38.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rumous: A Reading Note]]></title>
-        <id>https://loveavocado.github.io/post/rr_rumous/</id>
-        <link href="https://loveavocado.github.io/post/rr_rumous/">
-        </link>
-        <updated>2021-02-23T17:20:41.000Z</updated>
-        <summary type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>事实上，以“未经证实的”，尤其是“虚假的”信息为标准来定义谣言，是意识形态上的定义，反映了反对谣言的偏见以及劝人为善的意愿。（第7页）谣言的尴尬之处在于，谣言可能是真的，这意味着人们如果对这条真伪不明的信息一无所知的话，就处于潜在的危险中，这迫使人们去传播它。</p>
-]]></content>
     </entry>
 </feed>
