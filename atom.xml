@@ -2,11 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>沙耶と絵里子</title>
-    <updated>2022-06-08T19:27:21.983Z</updated>
+    <updated>2022-06-10T03:48:12.485Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
-    <subtitle>ここはサヤと絵里子の世界。</subtitle>
+    <subtitle>ここはサヤと絵里子の世界。
+&lt;img src=&quot;https://www.codewars.com/users/loveAvocado/badges/micro?theme=light&quot; alt=&quot;&quot;&gt;
+&lt;a href=&quot;https://www.codewars.com/users/loveAvocado/badges/micro?theme=light&quot;&gt;Me on Codewar&lt;/a&gt;</subtitle>
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 沙耶と絵里子</rights>
