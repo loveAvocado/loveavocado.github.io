@@ -1,0 +1,366 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>使用 *Telnet* 手动接收邮件 （基于 macOS 系统） | 沙耶と絵里子</title>
+
+<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1657278804699">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://loveavocado.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            沙耶と絵里子
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    Home
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://loveavocado.github.io/post/AboutUS" class="menu gt-a-link">
+                    About
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    Archive
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    Tag
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1657278804699"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    使用 *Telnet* 手动接收邮件 （基于 macOS 系统）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 07-08-2022 ·
+                    </time>
+                    
+                        <a href="https://loveavocado.github.io/tag/DGfJf9gLq/" class="post-tags">
+                            # Nelnet
+                        </a>
+                    
+                        <a href="https://loveavocado.github.io/tag/asnbYqFXFy/" class="post-tags">
+                            # CS
+                        </a>
+                    
+                        <a href="https://loveavocado.github.io/tag/THBjBmX3TA/" class="post-tags">
+                            # Network
+                        </a>
+                    
+                        <a href="https://loveavocado.github.io/tag/xLmfI1zJJh/" class="post-tags">
+                            # POP3
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>All in Markdown.<br>
+We use PKU Mail as an instance.</p>
+<h1 id="manually-receive-an-email-with-telnet-under-pop3-on-macos">Manually Receive an Email with <em>Telnet</em> under POP3 (on macOS)</h1>
+<blockquote>
+<p>使用 <em>Telnet</em> 手动接收邮件 （基于 macOS 系统）</p>
+</blockquote>
+<hr>
+<h2 id="什么是-telnet">什么是 Telnet</h2>
+<p>Telnet 代表 <strong>TE</strong>rmina<strong>L NET</strong>work 或 <strong>TEL</strong>etype <strong>NET</strong>work 或 <strong>TEL</strong>ecommunication <strong>NET</strong>work ，是一个流行于Unix系统的网络协议，直接由终端操作。Telnet被发明于1969年，安全性并不在其设计者的考量范围内，因此其安全性极低，它正在被SSL等更安全保密的网络协议所取代。</p>
+<h2 id="准备工作">准备工作</h2>
+<p>使用 Homebrew 安装 Telnet：<br>
+打开终端，输入下列命令安装 Homebrew ；<a href="https://brew.sh">参考</a></p>
+<pre><code class="language-bash">/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+</code></pre>
+<p>安装 Telnet</p>
+<pre><code class="language-bash">brew install telnet
+</code></pre>
+<p>之后就可以在终端使用 Telnet 了。</p>
+<hr>
+<h2 id="借助-telnet-通过-pop3-接收pku邮箱中的一封邮件">借助 Telnet 通过 POP3 接收PKU邮箱中的一封邮件</h2>
+<p>首先，用Outlook邮箱向 pku mail 发送一封邮件。然后，在pku邮箱设置-高級功能选项卡处查询到 pkumail 的 POP3 端口为 <code>110</code>；</p>
+<p>打开终端，输入<code>telnet mail.pku.edu.cn 110</code></p>
+<pre><code class="language-bash">MacBuch-Pro:~ usr$ telnet mail.pku.edu.cn 110
+Trying 162.105.129.99...
+Connected to mail.lb.pku.edu.cn.
+Escape character is '^]'.
++OK Welcome to coremail Mail Pop3 Server (mispb-1ea67e80-64e4-49d5-bd9f-3beeae24b9f2-pku.edu.cns[7f9fc2345ba1662f5ae8c6faa3cd1742s])
+#终端返回的内容显示我们已经连接到 coremail（pku mail）所属 POP3 server
+#然后就可以输入用户名和密码登录邮箱
+#注意，如果持续一段时间未操作，连接将被关闭。待光标出现时即可输入后续内容。
+user goat #输入用户名
++OK core mail
+pass woshimima #輸入密碼
++OK 982 message(s) [336623586 byte(s)]
+#显示登录成功，邮箱内有982封邮件（所占空间 336623586 bytes），其中第982封邮件就是刚刚发送的测试邮件。
+list #輸入list按順序查看每封邮件及其所占的空间
++OK 982 336623586
+1 7972
+2 3071
+3 13886
+4 13625
+…… #由於郵件數量龐大，只截取一部分
+978 6089
+979 3234
+980 5094
+981 7768
+982 7830
+.
+retr 982 #檢索（retrieve）第982封郵件
+</code></pre>
+<p>輸出結果</p>
+<pre><code class="language-bash">+OK 7830 octets
+Received: from JPN01-TYC-obe.outbound.protection.outlook.com (unknown [40.92.99.65])
+	by front01 (Coremail) with SMTP id 5oFpogCHpiQGzcdinU9fAA--.11299S3;
+	Fri, 08 Jul 2022 14:21:59 +0800 (CST)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Hzq/3BKXlREOvDOsIsn7uHPfbDJ9P1YLN03pUAnyz6IsNcN4C6POYP9mc5vypXAQKW57mrdYMrshwhBmKd1Ub8nfCRFb9v+l2mDe9Zrg2fnBtGFHeZwU68EhSTTxlNYepKsBoWZbitGDB7oFO/sfm7Tc8yqm4ClSpkG473qejF3wBCkeELof0Z2KweKBPlCLNlFlxOhBdvKF+kM+WlLuzGZW/Kujj1RO/1VwkbpNgFCVlXLkUcgU3m7g7NVXBu8FfTyrpvK77Ry4hqC4yFZsXfmQddiG2RIm3e6GE2J63GA+85l+IshPl93N+QbAjmdr/FHotJZvv7zmzW2Top++MQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=JdssuO+CI3iRJ/jiZ/dFi1y4a3fBqn1ksevuq6B/ZHQ=;
+ b=nJFcoql804N+gBs96s/G8CcJn7tIxmYeSuWpaJ9v5YxyEbeV3pKGqvhaR/KX6oxgSnpfKr679TRBAKqFNitn7ciK+9GZ/8sS17AsKwUwIKPFNBeGg8fZhoZyheS6UqSJmRPlE9SNt2YM+ycI4sN0785ymJ5ur9HqwGMG4YY1aPJx6y2SsE/0dhDN4xZaqU8h8cNym5fche24ysysagqB/evG8F26AYbTAHhFxSSeyaHsEKgDc4k5KWO1o1gq2B1Kdb+PO8OUejlMoEcIHmW8OJy+mYuB8CtqWTgVYM79vkIMh+niZy785I87flRg6+2SKCkbhuz1TyTb4GQbdP1kpw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=JdssuO+CI3iRJ/jiZ/dFi1y4a3fBqn1ksevuq6B/ZHQ=;
+ b=fQhBs7G9UTm7uCN3DxE8tieoJsFKIen0Sz5tYnrAn03uNUGmWcV0168LyZ57byS+Pbd0Tc7HVS8zodgIygEKAzknqMBb6afM90bJtbA/HB+avDttMuGHvuK0bUTZVp8S0W7CiqDizbTnCLqhJfV32tRiJBoMWB1RrZ6NV+ru/gecQUqKmOL3qBFUlXeNDYAXjP0kWgWX02cXBt57BEimGUxMKzLXXCPrCfxMAENMUc9RvSWKi2lwRF9U/T1NdPOU9bve5gWuKfjxzXlNL/5v3nPxJ+cD3mw3hHvde4xYuayQb5idpXW618cyt6KAIDybmvkEOlAXJgeI21K7eFwP/Q==
+Received: from TYCP286MB2003.JPNP286.PROD.OUTLOOK.COM (2603:1096:400:15b::12)
+ by TYBP286MB0221.JPNP286.PROD.OUTLOOK.COM (2603:1096:404:8027::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.17; Fri, 8 Jul
+ 2022 06:21:56 +0000
+Received: from TYCP286MB2003.JPNP286.PROD.OUTLOOK.COM
+ ([fe80::5ced:6265:1b9d:15f3]) by TYCP286MB2003.JPNP286.PROD.OUTLOOK.COM
+ ([fe80::5ced:6265:1b9d:15f3%6]) with mapi id 15.20.5395.022; Fri, 8 Jul 2022
+ 06:21:56 +0000
+From: Chien &lt;juen.chien@outlook.com&gt;
+To: &quot;goat@pku.edu.cn&quot; &lt;goat@pku.edu.cn&gt;
+Subject: Test Mail
+Thread-Topic: Test Mail
+Thread-Index: AQHYkpMFN1SV7u59+0CWHMpXZc0VtA==
+Date: Fri, 8 Jul 2022 06:21:56 +0000
+Message-ID: &lt;F7E722BB-C004-406D-98F3-F76FB576A4B2@outlook.com&gt;
+Accept-Language: en-GB, zh-CN, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [ZUaxuFH/Z8N17vzKFFUDhIoT6I5KR+sq]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 60c3299d-c139-4f69-7927-08da60aa2824
+x-ms-traffictypediagnostic: TYBP286MB0221:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ u78gD98GHnyOAiTdO8QxgRsLJjc3DwXlpjGbjfZUv+ewkDpvarvqapdatOi7BkrzFT6cG0EEFOJ7Rn5fGWoR3hwr7FLFuLZbbhikpOU0JAtFb6+Fl+H1xxgwZORlUXMv+ZevmQHfE8lmirYSGqALNoqNI/IWX884Z7aTTcHP2CGc2TlLtKqvSY2C918BcuR5eSKfcsSgKliLTGqivzuFAhNEfHyV+H3GbD962tEy4FdbJRjb3MMScckCNISRgOImJjIkhkITbh5ZuKwa3JUTbtuUylN475+rCAZcRHcUKlXwdfo8Za0vrOlCJDAnSeFFE2z4InW5Zdlsh026LMdIz12uzsP/bY6UJGmee7v6o6+IATDnkLZr7huPXopIhBDN002a4yJ8M5jhwrynkJc8EkG4cwvkOyfTvoit4oBZHZZB9yEbbmNWUoSYlYMSRBFc9VX9jR1EgmApoue0hkFaGfpDnj0lTgz99MgH6s2CzUKVbAiPwfYQ/nHI5dC2pbD3WnCM/s0fvcp7qmAiFa6DhNXESJxzE13kq9kc3GKlHc0ANCjyF14aTqFOtTnLtOa5sRc+busITqTIxg5UfoOK+YRVusP5l9MG0+SeL1jo+TbyBKDwPffn0wsw61NtDpPWXeu+1zP9IbOlfaCOPCLep9OwEFm+1d4lg/BO/0V4SCipURwX8DQ8RjPj9TR6AqVE/7VC54e+71cyTRZB6lfnZg==
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?EtNi7HvJIt1dbb+pj06rWdeEGjZQb7uwwZaQ5L0TvDhGCja25E0wi0sueINe?=
+ =?us-ascii?Q?VLz4GwIWWZ1bcsP0x2/aH+hRZMClPPIywdcXGKG0a/cXONDEvU7BDhaXh4uH?=
+ =?us-ascii?Q?cpzU8U6/yLdlwO5luAIlkqod6Wx3rvfP0Irb6kF6icDSKf00VRCTBZCsd/e+?=
+ =?us-ascii?Q?+e4ahykwTVbXKDUxCF1JQF3+4QrRQkzPbpr06rJqD6SKYl4PI61kOT0WNQuV?=
+ =?us-ascii?Q?MI8W7jyEylL4jyrTPrV23CsssUYTLpUo/0vTFxurv628ABWtixtDAE8TD2m5?=
+ =?us-ascii?Q?yZXYnfKZcraRNt9xmBAbgz9QmP6QO5U3EcZWgw75tbr2KwuEvYiYWDOQDQ8W?=
+ =?us-ascii?Q?829qSIVUo8iqmIGSfK/zk7+2oHKhiIfbpjjqmS+HQh4wtLMRRFoSaKPdjPLG?=
+ =?us-ascii?Q?rKw12k+4o/CUQ94vxDIMHX5e/Uh6DohVxLheIORZjizfTPJ2CsU9MKV4fyvZ?=
+ =?us-ascii?Q?2UlstKfxqo+ZFqxiFHldepXXPEskQBPgIDmrEtXHxhmzq4n9GoC68UgwjxfU?=
+ =?us-ascii?Q?IqHL2Q23/Yv82ycaa6mlZcflLjrmAFKsdyMXbi5Y0zp/LKvhwQOfTAj09pjc?=
+ =?us-ascii?Q?lUX4X6DFLrFtXT43tWjX/YPxQ+g+ROx8mLebJJ5l1Kqb/+GbLHnyOhsUCPVR?=
+ =?us-ascii?Q?5NJzdMJ4TByhJNFNKQiYWxsOk5aBguIq9JD8ZM9MhFBUT7yi4QmcS8M37Kfh?=
+ =?us-ascii?Q?uhhr/FAgOuamOGVV2raMhD5pTXO9OCH10qC0ZSZBuxhsG8UjHcpIcsjSvB9I?=
+ =?us-ascii?Q?/Dztek7ensRUYLGHN9Qa3AZK5ik1Cr7ClgaP90D7PH0k+DhOyWTpCONyrHvj?=
+ =?us-ascii?Q?o6Q0wwSvg+uaHAYP7bcBMi9lXs6yWv9m9Gbs9i+Jj0V4FUwGHjG65FWQMCQe?=
+ =?us-ascii?Q?K0zXzLGSAY3gPzN7OXFZ+FpBPWuJyn6IwU/YbIjab/4g2zCvLd1l0xcFpK5n?=
+ =?us-ascii?Q?boGpM4z/AU228XnBijoy0gnhQtk0bTAlpHdQrWankyo9boleR94XimxTYfGG?=
+ =?us-ascii?Q?p4shC9OxsINhVVQ4OS6oUThDiPBUQzAemLZ4EO5G6/yhcWVXnkMj7m2CnbPP?=
+ =?us-ascii?Q?gz4KyRNSa21bQ1lez3ulqSc+OFzx1V8NPAn5fGlDiKx0iw5G3E8cfLhQAwdC?=
+ =?us-ascii?Q?Fab9p7jVSqDSbWD19IK90Iqq1mp2he5vpHpQusJENBc7t0RARKrV2fTlFjU8?=
+ =?us-ascii?Q?LNi5Qq+ZrlNoFXvt93BQLkJCTiAnqLbnzIkppyaac6cQBbS8Xs3PHgX24FNB?=
+ =?us-ascii?Q?mN+oFEZwgx2HuN4WMIQEPRDgevMRLKqLpO/rTpxlMZXRmBkF/TNTWMfs50I4?=
+ =?us-ascii?Q?MrE=3D?=
+Content-Type: text/plain; charset=&quot;us-ascii&quot;
+Content-ID: &lt;7EDEDEFE097FAB4CA59A0E69ACDC19B7@JPNP286.PROD.OUTLOOK.COM&gt;
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TYCP286MB2003.JPNP286.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 60c3299d-c139-4f69-7927-08da60aa2824
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Jul 2022 06:21:56.0376
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYBP286MB0221
+X-CM-TRANSID:5oFpogCHpiQGzcdinU9fAA--.11299S3
+Authentication-Results: front01; spf=pass smtp.mail=jeun.chien.t@outlo
+	ok.com; dkim=pass header.i=@outlook.com
+X-Coremail-Antispam: 1UD129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7bjvjm3AaLaJ3UjIYCTnIWjp_UUUYb28lY4IE4IxF12IF4wA2F7IY1VAKz4vE
+	j48ve4kI8wA2z4x0Y4vE2Ix0cI8IcVAFwI0_Jr0_JF4l84ACjcxK6xIIjxv20xvEc7CjxV
+	AFwI0_Jr0_Gr1l84ACjcxK6I8E87Iv67AKxVWxJVW8Jr1l84ACjcxK6I8E87Iv6xkF7I0E
+	14v26r4UJVWxJr1le2I262IYc4CY6c8Ij28IcVAaY2xG8wAqx4xG64xvF2IEw4CE5I8CrV
+	C2j2WlYx0E74AGY7Cv6cx26r43Gr1UJr1lOx8S6xCaFVCjc4AY6r1j6r4UM4x0x7Aq67II
+	x4CEVc8vx2IErcIFxwCjxxvEa2IrMxkFs20EY4vE44CYbxCE4x80FwCY0x0Ix7I2Y4AK64
+	vIr41lcIIF0xvE2Ix0cI8IcVAFwI0_Jr0_JF4lcIIF0xvE2Ix0cI8IcVCY1x0267AKxVWU
+	JVW8JwCYIxAIcVC2z280aVAFwI0_Jr0_Gr1lcIIF0xvEx4A2jsIEc7CjxVAFwI0_Jr0_Gr
+	1l42xK82IYc2Ij64vIr41l42xK82IY6x8ErcxFaVAv8VW8Zr4UJr1UMxCjnVCjjxCrMxC2
+	0s026xCaFVCjc4AY6r1j6r4UMI8I3I0E5I8CrVAFwI0_Jr0_Jr4lx2IqxVCjr7xvwVAFwI
+	0_JrI_JrWlx4CEj282c2IF4VAI2VCY07xJMI8E67AF67kF1VAFwI0_Jr0_JrylIxkGc2Ij
+	64vIr41lIxAIcVCF04k26cxKx2IYs7xG6r1j6r1xYxBIdaVFxhVjvjDU0xZFpf9x0JUkMa
+	8UUUUU=
+
+Dear Goat
+Hi, this is an Email for testing telnet.=20
+Have a nice day.
+Sincerely
+Dog
+.
+</code></pre>
+<p>輸出結果最後是那封測試郵件的內容，此外還包括發送者和接受者的一些信息。</p>
+<h2 id="刪除和退出">刪除和退出</h2>
+<pre><code class="language-bash">...
+dele 977 #可删除第977封邮件
++OK core mail
+quit #可关闭连接
++OK core mail
+Connection closed by foreign host.
+</code></pre>
+<h2 id="参考文献">参考文献</h2>
+<p>主要参考：<br>
+https://www.lampdocs.com/working-with-e-mail-using-telnet/<br>
+https://www.vircom.com/blog/quick-guide-of-pop3-command-line-to-type-in-telnet/</p>
+<p>辅助参考：<br>
+https://www.minitool.com/lib/what-is-telnet.html<br>
+https://www.geeksforgeeks.org/introduction-to-telnet/<br>
+https://www.scalahosting.com/kb/how-to-connect-to-telnet-via-mac-terminal/<br>
+https://osxdaily.com/2018/07/18/get-telnet-macos/<br>
+https://www.siteground.com/tutorials/email/protocols-pop3-smtp-imap/</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://loveavocado.github.io/post/1MH-291kZ/" class="post-title gt-a-link">
+                    Pre-Script 方法としての中国
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">ここはサヤと絵里子の世界。<br>
+<img src="https://www.codewars.com/users/loveAvocado/badges/small" alt="">
+</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://loveavocado.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
