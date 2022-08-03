@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>杂评丨民营医院停业整顿事件 | 沙耶と絵里子</title>
+<title>HTML5 &amp; CSS (01) | 沙耶と絵里子</title>
 
 <link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1659528819638">
 
@@ -102,46 +102,121 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    杂评丨民营医院停业整顿事件
+                    HTML5 &amp; CSS (01)
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 01-15-2022 ·
+                        · 08-03-2022 ·
                     </time>
-                    
-                        <a href="https://loveavocado.github.io/tag/4-hKFPlA-/" class="post-tags">
-                            # Comment
-                        </a>
-                    
-                        <a href="https://loveavocado.github.io/tag/OPmhEYZyuO/" class="post-tags">
-                            # Social Issue
-                        </a>
-                    
-                        <a href="https://loveavocado.github.io/tag/qJEZqXbhJC/" class="post-tags">
-                            # Covid-19
-                        </a>
-                    
-                        <a href="https://loveavocado.github.io/tag/3A2l5T5pYS/" class="post-tags">
-                            # politics
-                        </a>
                     
                 </div>
                 <div class="post-content">
-                    <p>原始文章：<br>
-<a href="https://mp.weixin.qq.com/s/mxtq5e73xk1FHQBeHHlaXw">西安两家医院停业整顿 患者和医生决定上网求助</a><br>
-背景資料：</p>
-<pre><code>1 月 2 日，西安一名患者因突发心脏病，但因来自中风险地区，没有做核酸无法入院，被医院拒诊后，错过最佳抢救时间，不幸逝世。
-1 月 4 日，一位怀孕 8 个月的孕妇因突发腹痛，被送往医院，但因核酸报告超时无法入院，在院门口等待两小时后流产。
+                    <h1 id="在实践中总结-htmlcss-用法">在实践中总结 HTML+CSS 用法</h1>
+<h2 id="basic-knowledge-of-css">Basic Knowledge of CSS</h2>
+<h3 id="css-selector-format-样式选择器格式">css selector format 样式选择器格式</h3>
+<p>元素样式</p>
+<pre><code class="language-css">element {
+    property: value;
+}
 </code></pre>
-<p>評論：<br>
-一些短见：</p>
+<p>类样式</p>
+<pre><code class="language-css">.class {
+    property: value;
+}
+</code></pre>
+<h3 id="margin-边缘-意义">margin 边缘 意义</h3>
+<p>Think of the margin as <mark>invisible space around an element</mark>. Using these two margin properties, center the <code>div</code> element within the <code>body</code> element.<br>
+边缘就是元素周围“隐形”的空间。</p>
+<pre><code class="language-css">.flag-top {
+    height: 4px;
+    background-color: #0066cc;
+    border-color: #0066cc;
+    margin-bottom: 0px;
+}
+
+.flag-bottom {
+	height: 4px;
+	background-color: #ffcc00;
+	border-color: #ffcc00;
+	margin-top: 0px;
+}
+</code></pre>
+<h3 id="padding">padding</h3>
+<p>You can give your menu some space between the content and the sides with various <code>padding</code> properties.<br>
+在内容和块边缘之间填充一些空间; 可以是相对向外扩张，也可以是向内卷曲。</p>
+<pre><code class="language-css">elements {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding: 20px;
+}
+</code></pre>
+<h2 id="basic-knowledge-of-html5-elements">Basic Knowledge of HTML5 Elements</h2>
+<h3 id="p-段落">p 段落</h3>
+<p><code>&lt;p&gt;</code> elements are <strong>block-level elements</strong>, so they take up the entire width of their <strong>parent element.</strong>  p 元素是块级别的元素，因此会占用整行其祖元素的宽度。</p>
+<ul>
+<li>
+<p>To make 2 p elements <strong>behave</strong> more like in the same line, you need to apply some styling to the <code>p</code> elements.  （如，将<code>width</code>属性调整为50%，并将两个<code>p</code>元素写在同一行。）</p>
+<pre><code class="language-html">&lt;article class=&quot;item&quot;&gt;
+	&lt;p class=&quot;flavor&quot;&gt;French Vanilla&lt;/p&gt;&lt;p class=&quot;price&quot;&gt;3.00&lt;/p&gt;
+&lt;/article&gt;
+</code></pre>
+</li>
+</ul>
+<h3 id="div-区块划分">div 区块划分</h3>
+<h4 id="何时使用-div-设计排版">何时使用 <code>&lt;div&gt;</code> —— 设计排版</h4>
+<p>The <code>div</code> element is used mainly for design layout purposes.</p>
+<p>用于设计排版和布局。</p>
+<h3 id="width-宽度表示">width 宽度表示</h3>
 <ol>
-<li>文中提到“2020 年，公立医院的诊疗人次 3100 多万人次，民营医院诊疗 739 万人次；”，可以认为，民营医院“抢占”了约20%公立医院的资源，这种情况有可能导致公私立医院的矛盾吗？有一定可能性；</li>
-<li>在西安疫情严重化、相关管理政策收紧的情况下，民营医院想要变通健康码政策要冒很大风险，疫情风险和行政处罚风险，一旦因变通导致疫情规模扩大，上述医院负责人依旧会遭到严厉处罚；</li>
-<li>导致“流产孕妇事故”发生的直接原因是医院为“不计一切代价”遵守防疫规定导致的，那么是否可以认为政策制定者在决策时没有考虑到这种情况，并作出“例外安排”？如果是这样，政策制定者却没有在此次事故中承担任何责任。相反，西安卫健委却将所有责任推给了渉事医院。</li>
-<li>是否还有其他以类似理由被拒绝但没有造成事故的患者呢？如果有这类患者，但他们的困境没有得到曝光，这次处罚会对这些患者产生什么益处么？似乎没有。</li>
+<li>
+<p>百分比（%）<br>
+Change the <code>width</code> property's value to be <code>80%</code>, to make it 80% the width of its parent element (<code>body</code>).<br>
+即其祖元素的宽度的百分比。<br>
+如果仅为一行长度较长的字符串提供较短（如25%）的宽度空间，some of the text would start wrapping around to the next line.</p>
+</li>
+<li>
+<p>像素值（px）</p>
+</li>
 </ol>
-<p>综上，从“医院停业整顿处罚”中受益的群体似乎只有不具名的政策制定者和公立医院了？可以说西安卫健委思路非常清晰了。😅</p>
+<h3 id="article-相关的数据">article 相关的数据</h3>
+<p><code>article</code> elements commonly contain multiple elements that have related information.</p>
+<p><code>article</code> 元素通常用于包含相互关联的诸多元素，如 Cafe 练习中的价位表。</p>
+<h3 id="a-链接">a 链接</h3>
+<p>The default color of a link that has not yet been clicked on is typically blue. The default color of a link that has already been visited from a page is typically purple. 未被点击的链接的默认颜色是蓝色，而被访问过的则是紫色。</p>
+<h4 id="css-selectors-of-a">css selectors of a</h4>
+<p>可以使用a选择器中的color改变其默认颜色。</p>
+<hr>
+<p>可以使用虚拟选择器<code>a:visited</code>改变连接被访问后的颜色；（You change properties of a link when the link has actually been visited by using a <em>[[pseudo-selector]]</em> that looks like <code>a:visited { propertyName: propertyValue; }</code>.）</p>
+<pre><code class="language-css">a:visited {
+		color: grey;
+}
+</code></pre>
+<hr>
+<p>可以使用虚拟选择器<code>a:hover</code>设置鼠标悬浮于链接之后的样式</p>
+<pre><code class="language-css">a:hover {
+	color: white;
+}
+</code></pre>
+<hr>
+<p>使用 <code>a:active</code> 可以设置链接被点击时的样式。</p>
+<h3 id="hr-空心分割线块">hr 空心分割线（块）</h3>
+<p>horizontal line 分割线<br>
+self closing</p>
+<h4 id="height-of-hr">height of hr</h4>
+<p>通过调整 hr 的 height 属性，可以将其修改为高度为 x px 的空心矩形。</p>
+<h4 id="background-color-of-hr">background-color of hr</h4>
+<p>用于填充 hr 的颜色。</p>
+<h4 id="border-color-of-hr">border-color of hr</h4>
+<p>hr 边框的颜色，边框的宽度为1px；</p>
+<h3 id="img-图片">img 图片</h3>
+<pre><code class="language-css">img {
+	display: block; /*将图片视为block以修改其样式*/
+	margin-left: auto;
+	margin-right: auto;
+}
+</code></pre>
 
                 </div>
             </article>
@@ -150,8 +225,8 @@
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/" class="post-title gt-a-link">
-                    Attention Deficit Hyperactivity Disorder: A Reading Note
+                <a href="https://loveavocado.github.io/post/KVScmubhT/" class="post-title gt-a-link">
+                    使用 Telnet 手动接收邮件 （基于 macOS 系统）
                 </a>
             </div>
         

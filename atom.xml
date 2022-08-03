@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>沙耶と絵里子</title>
-    <updated>2022-07-08T11:30:00.365Z</updated>
+    <updated>2022-08-03T12:13:46.008Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -12,6 +12,13 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 沙耶と絵里子</rights>
+    <entry>
+        <title type="html"><![CDATA[HTML5 & CSS (01)]]></title>
+        <id>https://loveavocado.github.io/post/LJCNeok0J/</id>
+        <link href="https://loveavocado.github.io/post/LJCNeok0J/">
+        </link>
+        <updated>2022-08-03T12:12:58.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用 Telnet 手动接收邮件 （基于 macOS 系统）]]></title>
         <id>https://loveavocado.github.io/post/KVScmubhT/</id>
@@ -90,12 +97,5 @@
         <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/">
         </link>
         <updated>2021-06-24T06:33:19.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[读书笔记丨他们以为他们是自由的  1933-1945年间的德国人]]></title>
-        <id>https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/</id>
-        <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/">
-        </link>
-        <updated>2021-05-05T16:50:49.000Z</updated>
     </entry>
 </feed>
