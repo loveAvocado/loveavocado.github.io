@@ -2002,3 +2002,17 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #1d1e1f!important;
         }
          
+      .top {
+    height: 4px;
+    border-color: #0066cc;
+    background-color: #0066cc;
+    margin-bottom: 0px;
+}
+.bottom {
+    height: 4px;
+    margin-top: 0px;
+    border-color: #ffcc00;
+    background-color: #ffcc00;
+   
+}
+    
