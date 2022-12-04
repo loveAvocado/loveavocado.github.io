@@ -2003,13 +2003,13 @@ code::-webkit-scrollbar-thumb:hover {
         }
          
       .top {
-    height: 4px;
+    height: 6px;
     border-color: #0066cc;
     background-color: #0066cc;
     margin-bottom: 0px;
 }
 .bottom {
-    height: 4px;
+    height: 6px;
     margin-top: 0px;
     border-color: #ffcc00;
     background-color: #ffcc00;

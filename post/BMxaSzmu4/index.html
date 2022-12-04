@@ -1,0 +1,270 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>使用C做抽签器（隨機數&amp;編譯） | 絵里子の世界</title>
+
+<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1670161872827">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://loveavocado.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            絵里子の世界
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    Home
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://loveavocado.github.io/post/AboutUS" class="menu gt-a-link">
+                    About
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    Archive
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    Tag
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1670161872827"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    使用C做抽签器（隨機數&amp;編譯）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 12-04-2022 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>借助标准库中的随机数函数和时间库，制作了一个简易的持签问卜工具。</p>
+<!-- more -->
+<p>初步计划使用自定义结构体实现。<br>
+预期的功能是自动抽签，无需每次输入内容。</p>
+<h1 id="生成随机数">生成随机数</h1>
+<p>C生成随机数主要依赖其标准库，<code>&lt;stdlib&gt;</code> 提供了两种随机数函数 <code>rand()</code> 和 <code>srand</code> 。</p>
+<h2 id="rand">RAND()</h2>
+<p><code>rand()</code> 的机制是利用线性同余法，每次生成一个伪随机数，该随机数的最大范围是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mn>0</mn><mo separator="true">,</mo><mn>2147483647</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">[0,2147483647)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">2</span><span class="mord">1</span><span class="mord">4</span><span class="mord">7</span><span class="mord">4</span><span class="mord">8</span><span class="mord">3</span><span class="mord">6</span><span class="mord">4</span><span class="mord">7</span><span class="mclose">)</span></span></span></span> ，如果多次运行该函数，每次生成的随机数都是一样的，如本例中每次抽签得到的签都是同一个。</p>
+<p>通用公式 <code>a + rand() % n</code> ；其中的 <code>a</code> 是起始值，<code>n</code> 是整数的范围。</p>
+<p>要取得 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mi>a</mi><mo separator="true">,</mo><mi>b</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">[a,b)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord mathdefault">a</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">b</span><span class="mclose">)</span></span></span></span> 的随机整数，使用 <code>a + (rand() % (b-a))</code> ，<code>rand()%8</code> 即表示从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mn>0</mn><mo separator="true">,</mo><mn>8</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">[0,8)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">8</span><span class="mclose">)</span></span></span></span> 之间输出一个随机数。</p>
+<pre><code class="language-cpp">#include &lt;cstdio&gt;
+#include &lt;cstdlib&gt;
+#define charMAX 1000
+using namespace std;
+
+struct Augur {    
+        int number;
+        char issue[charMAX];
+    } 
+    Augur[7] = {
+        0,&quot;计算概论&quot;,
+        1,&quot;政心期末&quot;,
+        2,&quot;发政期末&quot;,
+        3,&quot;助研&quot;,
+        4,&quot;毕业论文&quot;,
+        5,&quot;实习报告&quot;,
+        6,&quot;信息政策&quot;
+    };
+
+int main () {
+    int n;
+    n = rand()%6;
+    printf(&quot;%d %s\n&quot;, Augur[n].number , Augur[n].issue );
+    return 0;
+}
+</code></pre>
+<p>多次执行之后结果都是</p>
+<pre><code class="language-bash">4 毕业论文
+</code></pre>
+<p>因此需要使用可以提供随机种子的随机数函数 <code>srand()</code> 。</p>
+<h2 id="srand">SRAND()</h2>
+<p><code>srand()</code> 可以通过设置<code>rand()</code> 产生随机数的生成种子（这是什么？）来获取不同的随机数序列。<br>
+可以使用 <code>srand(int)(time(NULL))</code> ，借助系统时钟，在 <code>time()</code> 库的帮助下，产生不同的随机数种子。</p>
+<p>在此基础上修改过的代码即可满足需求。。</p>
+<pre><code class="language-cpp">#include &lt;ctime&gt;
+
+int main () {
+    int n;
+    int i=2;
+    srand((unsigned int)(time(NULL)));  
+    /*将种子设置为2后，输出结果恒为8 申请，不设置时恒定为4 毕业论文。为使其变化，设置为time() 。*/
+    n = rand()%9;
+    printf(&quot;%d %s\n&quot;, qian[n].number , qian[n].issue );
+    return 0;
+}
+</code></pre>
+<h1 id="使用结构体自定义每一支签">使用结构体自定义每一支签</h1>
+<p>（当前版本，不能自定义输入的签）</p>
+<pre><code class="language-cpp">#include &lt;cstdio&gt;
+#include &lt;cstdlib&gt;
+#include &lt;ctime&gt;
+#define charMAX 1000
+using namespace std;
+
+struct Augur {    
+        int number;
+        char issue[charMAX];
+    } 
+    qian[10] = {
+        0,&quot;计算概论&quot;,
+        1,&quot;政治心理学&quot;,
+        2,&quot;发展政治学&quot;,
+        3,&quot;研究助理&quot;,
+        4,&quot;毕业论文&quot;,
+        5,&quot;实习报告&quot;,
+        6,&quot;信息法&quot;,
+        7,&quot;托福雅思&quot;,
+        8,&quot;申请&quot;,
+        9,&quot;研究助理&quot;
+    };
+
+int main () {
+    srand((unsigned int)(time(NULL)));  //将种子设置为2后，输出结果恒为8 申请，不设置时恒定为4 毕业论文。为使其变化，设置为time() 。
+    int n = rand()%9;
+    printf(&quot;抽中%d号签——%s: &quot;, qian[n].number , qian[n].issue );
+    printf(&quot;%d分钟\n&quot;, int(30 + rand()% 91));
+    return 0;
+}
+</code></pre>
+<h1 id="生成可执行文件">生成可执行文件</h1>
+<p>上述代码为源代码，为每次执行，需要将源代码编译成可供计算机执行的可执行文件。<br>
+本例中源代码放在桌面，编译步骤如下。</p>
+<pre><code class="language-bash">cd ~/Desktop
+g++ -o ./持簽問卜 ./持簽問卜.cpp 
+</code></pre>
+<p>完成编译后，就可以直接运行该文件</p>
+<pre><code class="language-bash">./持簽問卜
+</code></pre>
+<p>或直接雙擊該程序。</p>
+<hr>
+<p>值得一提的是，我看的<a href="https://siytek.com/how-to-compile-cpp-on-a-mac/">教程</a>还提到可以在 terminal 直接使用 <code>nano hello.cpp</code> 的指令来创建并直接在终端页面里编辑代码。</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://loveavocado.github.io/post/LJCNeok0J/" class="post-title gt-a-link">
+                    HTML5 &amp; CSS (01)
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first"><hr class='top'><hr class='bottom'><br>
+<img src="https://www.codewars.com/users/loveAvocado/badges/small" alt="">
+</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://loveavocado.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
