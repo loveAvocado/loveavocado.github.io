@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>絵里子の世界</title>
-    <updated>2022-12-04T15:13:38.801Z</updated>
+    <updated>2022-12-04T16:30:09.799Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -29,9 +29,11 @@
         <link href="https://loveavocado.github.io/post/BMxaSzmu4/">
         </link>
         <updated>2022-12-04T12:09:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>借助标准库中的随机数函数和时间库，制作了一个简易的持签问卜工具。</p>
+        <summary type="html"><![CDATA[<p>借助标准库中的随机数函数和时间库，制作了一个简易的持签问卜工具。<br>
+使用自定义结构体实现。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>借助标准库中的随机数函数和时间库，制作了一个简易的持签问卜工具。</p>
+        <content type="html"><![CDATA[<p>借助标准库中的随机数函数和时间库，制作了一个简易的持签问卜工具。<br>
+使用自定义结构体实现。</p>
 ]]></content>
     </entry>
     <entry>
