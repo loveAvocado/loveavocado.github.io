@@ -1,187 +1,147 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" >
 
 <title>POP3 | 絵里子の世界</title>
 
-<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1670171888674">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1670204366692">
 <link rel="stylesheet" href="https://loveavocado.github.io/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
 
 
 
-</head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="/">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            絵里子の世界
-        </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    Home
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://loveavocado.github.io/post/AboutUS" class="menu gt-a-link">
-                    About
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    Archive
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    Tag
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1670171888674"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-        <div class="current-tag-container">
-            <h2 class="title gt-c-content-color-first">
-                #POP3
-            </h2>
-        </div>
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://loveavocado.github.io/post/KVScmubhT/">
-                            <span class="post-title gt-c-content-color-first">使用 Telnet 手动接收邮件 （基于 macOS 系统）</span>
-                        </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 07-08-2022 ·
-                        </time>
-                        
-                            <a href="https://loveavocado.github.io/tag/DGfJf9gLq/" class="post-tag">
-                                # Nelnet
-                            </a>
-                        
-                            <a href="https://loveavocado.github.io/tag/asnbYqFXFy/" class="post-tag">
-                                # CS
-                            </a>
-                        
-                            <a href="https://loveavocado.github.io/tag/THBjBmX3TA/" class="post-tag">
-                                # Network
-                            </a>
-                        
-                            <a href="https://loveavocado.github.io/tag/xLmfI1zJJh/" class="post-tag">
-                                # POP3
-                            </a>
-                        
-                    </div>
-                </div>
-                
-            </div>
-        
-    </div>
-</div>
-        <div class="pagination-container">
-    
-    
-</div>
 
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first"><hr class='top'><hr class='bottom'><br>
-<img src="https://www.codewars.com/users/loveAvocado/badges/small" alt="">
-</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
+
+    <meta name="description" content="&lt;hr class=&#39;top&#39;&gt;&lt;hr class=&#39;bottom&#39;&gt;&lt;br&gt;
+&lt;img src=&#34;https://www.codewars.com/users/loveAvocado/badges/small&#34; alt=&#34;&#34;&gt;
+">
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://loveavocado.github.io">
+        <img src="https://loveavocado.github.io/images/avatar.png?v=1670204366692" class="site-logo">
+        <h1 class="site-title">絵里子の世界</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
     <div>
-        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
-                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://loveavocado.github.io/atom.xml" target="_blank">RSS</a>
+      
+        
+          <a href="/" class="site-nav">
+            Home
+          </a>
+        
+      
+        
+          <a href="https://loveavocado.github.io/post/AboutUS" class="site-nav">
+            About
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            Archive
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            Tag
+          </a>
+        
+      
     </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <hr class='top'><hr class='bottom'><br>
+<img src="https://www.codewars.com/users/loveAvocado/badges/small" alt="">
+
+    </div>
+    <div class="site-footer">
+      Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a> | <a class="rss" href="https://loveavocado.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
-<script>
-  hljs.highlightAll()
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: POP3</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://loveavocado.github.io/post/KVScmubhT/">
+                  <h2 class="post-title">使用 Telnet 手动接收邮件 （基于 macOS 系统）</h2>
+                </a>
+                <div class="post-date">
+                  07-08-2022
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-    </div>
-</div>
-</body>
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
 </html>

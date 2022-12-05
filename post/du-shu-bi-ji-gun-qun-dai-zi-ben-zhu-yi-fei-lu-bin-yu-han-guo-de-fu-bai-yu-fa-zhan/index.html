@@ -1,133 +1,108 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" >
 
 <title>读书笔记丨裙带资本主义：菲律宾与韩国的腐败与发展 | 絵里子の世界</title>
 
-<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1670171888674">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://loveavocado.github.io/favicon.ico?v=1670204366692">
 <link rel="stylesheet" href="https://loveavocado.github.io/styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
 
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
-    
-</head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="/">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            絵里子の世界
-        </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-            <div class="nav-item">
-                
-                <a href="/" class="menu gt-a-link">
-                    Home
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="https://loveavocado.github.io/post/AboutUS" class="menu gt-a-link">
-                    About
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/archives" class="menu gt-a-link">
-                    Archive
-                </a>
-                
-            </div>
-            
-            <div class="nav-item">
-                
-                <a href="/tags" class="menu gt-a-link">
-                    Tag
-                </a>
-                
-            </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1670171888674"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+康灿雄 著; 李巍等 译.《裙带资本主义：韩国与菲律宾的腐败与发展》[M].上海人民出版社:上海,2017
+兴趣点： 政策连贯性与一致性问题  战前日本政治经济格局研究
+
+
+
+先說評價，與自己的預期較為不符，本書主要是以裙帶關係為關鍵變量..." />
+    <meta name="keywords" content="Political Science,Corruption,Reading Note,Comparative Politics" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://loveavocado.github.io">
+        <img src="https://loveavocado.github.io/images/avatar.png?v=1670204366692" class="site-logo">
+        <h1 class="site-title">絵里子の世界</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-</nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            Home
+          </a>
+        
+      
+        
+          <a href="https://loveavocado.github.io/post/AboutUS" class="site-nav">
+            About
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            Archive
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            Tag
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <hr class='top'><hr class='bottom'><br>
+<img src="https://www.codewars.com/users/loveAvocado/badges/small" alt="">
 
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    读书笔记丨裙带资本主义：菲律宾与韩国的腐败与发展
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 06-24-2021 ·
-                    </time>
-                    
-                        <a href="https://loveavocado.github.io/tag/IelkVkQtQ/" class="post-tags">
-                            # Political Science
-                        </a>
-                    
-                        <a href="https://loveavocado.github.io/tag/AICnb0Ydx/" class="post-tags">
-                            # Corruption
-                        </a>
-                    
-                        <a href="https://loveavocado.github.io/tag/uKb-dVbKQh/" class="post-tags">
-                            # Reading Note
-                        </a>
-                    
-                        <a href="https://loveavocado.github.io/tag/KbK-eamutd/" class="post-tags">
-                            # Comparative Politics
-                        </a>
-                    
-                </div>
-                <div class="post-content">
-                    <!-- more -->
+    </div>
+    <div class="site-footer">
+      Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a> | <a class="rss" href="https://loveavocado.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">读书笔记丨裙带资本主义：菲律宾与韩国的腐败与发展</h2>
+            <div class="post-date">06-24-2021</div>
+            
+            <div class="post-content" v-pre>
+              <!-- more -->
 <pre><code>康灿雄 著; 李巍等 译.《裙带资本主义：韩国与菲律宾的腐败与发展》[M].上海人民出版社:上海,2017
 兴趣点： 政策连贯性与一致性问题  战前日本政治经济格局研究
 
@@ -237,58 +212,70 @@
 </blockquote>
 <hr>
 
-                </div>
-            </article>
-        </div>
-
-        
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/" class="post-title gt-a-link">
-                    读书笔记丨他们以为他们是自由的  1933-1945年间的德国人
-                </a>
             </div>
-        
+            
+              <div class="tag-container">
+                
+                  <a href="https://loveavocado.github.io/tag/IelkVkQtQ/" class="tag">
+                    Political Science
+                  </a>
+                
+                  <a href="https://loveavocado.github.io/tag/AICnb0Ydx/" class="tag">
+                    Corruption
+                  </a>
+                
+                  <a href="https://loveavocado.github.io/tag/uKb-dVbKQh/" class="tag">
+                    Reading Note
+                  </a>
+                
+                  <a href="https://loveavocado.github.io/tag/KbK-eamutd/" class="tag">
+                    Comparative Politics
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/">
+                  <h3 class="post-title">
+                    读书笔记丨他们以为他们是自由的  1933-1945年间的德国人
+                  </h3>
+                </a>
+              </div>
+            
 
-        
+            
 
-        
+          </div>
 
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first"><hr class='top'><hr class='bottom'><br>
-<img src="https://www.codewars.com/users/loveAvocado/badges/small" alt="">
-</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
+        </div>
+      </div>
     </div>
-    <div class="footer-info">
-        Powered by<a href="https://github.com/getgridea/gridea" target="_blank"> Gridea</a>
-    </div>
-    <div>
-        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
-                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://loveavocado.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-</div>
 
-<script>
-  hljs.highlightAll()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-    </div>
-</div>
-</body>
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
 </html>
