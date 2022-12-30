@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>絵里子の世界</title>
-    <updated>2022-12-05T02:00:01.436Z</updated>
+    <updated>2022-12-30T00:29:04.177Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -12,6 +12,19 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 絵里子の世界</rights>
+    <entry>
+        <title type="html"><![CDATA[文献评介丨标记假新闻有什么用？一个实证主义研究]]></title>
+        <id>https://loveavocado.github.io/post/5nx9H6DmJ/</id>
+        <link href="https://loveavocado.github.io/post/5nx9H6DmJ/">
+        </link>
+        <updated>2022-12-30T00:22:16.000Z</updated>
+        <summary type="html"><![CDATA[<p>随着互联网技术的发展和大众传媒的普及，社交媒体逐渐超过电视、广播等传统新闻媒体，成为当今人们重要<br>
+本研究从需求侧入手，试图探究事实核查对社交媒体用户的影响。作者在2019年10月针对717个有效样本开展实证研究，试图探究新闻事实核查对于社交媒体用户判断具体新闻真实性的影响。研究结果显示，为新闻添加事实核查标识确实可以改变用户对新闻真实性的判断，同时这一改变具有统计学意义上的显著性。但这一改变的具体机制并非是通过促进用户运用批判性思维能力推理得到结论，而只是由事实核查标识作为诱导用户评价的暗示。换言之，事实核查标识符只是将用户对新闻内容的盲信转移到了对事实核查标识的盲信，单纯使用事实核查符并不能促进用户的批判性思维能力。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>随着互联网技术的发展和大众传媒的普及，社交媒体逐渐超过电视、广播等传统新闻媒体，成为当今人们重要<br>
+本研究从需求侧入手，试图探究事实核查对社交媒体用户的影响。作者在2019年10月针对717个有效样本开展实证研究，试图探究新闻事实核查对于社交媒体用户判断具体新闻真实性的影响。研究结果显示，为新闻添加事实核查标识确实可以改变用户对新闻真实性的判断，同时这一改变具有统计学意义上的显著性。但这一改变的具体机制并非是通过促进用户运用批判性思维能力推理得到结论，而只是由事实核查标识作为诱导用户评价的暗示。换言之，事实核查标识符只是将用户对新闻内容的盲信转移到了对事实核查标识的盲信，单纯使用事实核查符并不能促进用户的批判性思维能力。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[文献评介：重估政治行为中的精英大众差异]]></title>
         <id>https://loveavocado.github.io/post/UBpWQZWWn/</id>
@@ -96,12 +109,5 @@
         <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-qun-dai-zi-ben-zhu-yi-fei-lu-bin-yu-han-guo-de-fu-bai-yu-fa-zhan/">
         </link>
         <updated>2021-06-24T06:33:19.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[读书笔记丨他们以为他们是自由的  1933-1945年间的德国人]]></title>
-        <id>https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/</id>
-        <link href="https://loveavocado.github.io/post/du-shu-bi-ji-gun-ta-men-yi-wei-ta-men-shi-zi-you-de-1933-1945-nian-jian-de-de-guo-ren/">
-        </link>
-        <updated>2021-05-05T16:50:49.000Z</updated>
     </entry>
 </feed>
