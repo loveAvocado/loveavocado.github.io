@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>絵里子の世界</title>
-    <updated>2023-03-14T10:20:56.005Z</updated>
+    <updated>2023-03-14T14:18:47.071Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -12,6 +12,13 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, 絵里子の世界</rights>
+    <entry>
+        <title type="html"><![CDATA[蘇州閶門「倒蔣」標語考（二）]]></title>
+        <id>https://loveavocado.github.io/post/RkJWouY65/</id>
+        <link href="https://loveavocado.github.io/post/RkJWouY65/">
+        </link>
+        <updated>2023-03-14T13:25:42.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蘇州閶門「倒蔣」標語考（一）]]></title>
         <id>https://loveavocado.github.io/post/COv6lf_E7/</id>
@@ -106,12 +113,5 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>本书作者摒弃了民主专制二分法的策略，但某种程度上大获胜联盟&amp;小获胜联盟的区分也可以视作民主或专制。作者的这种分析路径，给世人一种警醒——即民主和专制领导者在本质上是一致的，因此需要普通公民捍卫自己的权利&amp;权力，以遏制这些领导者们的滥权念头和行为。</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《叫魂：1768年中国妖术大恐慌》]]></title>
-        <id>https://loveavocado.github.io/post/du-shu-bao-gao-gun-lesslessjiao-hun-1768-nian-zhong-guo-yao-zhu-da-kong-huang-greatergreater/</id>
-        <link href="https://loveavocado.github.io/post/du-shu-bao-gao-gun-lesslessjiao-hun-1768-nian-zhong-guo-yao-zhu-da-kong-huang-greatergreater/">
-        </link>
-        <updated>2021-11-20T08:20:31.000Z</updated>
     </entry>
 </feed>
