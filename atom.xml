@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>絵里子の世界</title>
-    <updated>2023-03-14T14:19:14.716Z</updated>
+    <updated>2023-04-18T10:09:43.074Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -12,6 +12,13 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, 絵里子の世界</rights>
+    <entry>
+        <title type="html"><![CDATA[麦金农媒介批评理论应用（一）：锐评老白男迈克贝]]></title>
+        <id>https://loveavocado.github.io/post/THUS6umAs/</id>
+        <link href="https://loveavocado.github.io/post/THUS6umAs/">
+        </link>
+        <updated>2023-04-16T13:08:31.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蘇州閶門「倒蔣」標語考（二）]]></title>
         <id>https://loveavocado.github.io/post/RkJWouY65/</id>
@@ -102,16 +109,5 @@
         <link href="https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/">
         </link>
         <updated>2021-12-28T04:38:08.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《独裁者手册》：三个维度和五条法则]]></title>
-        <id>https://loveavocado.github.io/post/rr-handbook_of_dictator/</id>
-        <link href="https://loveavocado.github.io/post/rr-handbook_of_dictator/">
-        </link>
-        <updated>2021-11-22T11:07:31.000Z</updated>
-        <summary type="html"><![CDATA[<p>本书作者摒弃了民主专制二分法的策略，但某种程度上大获胜联盟&amp;小获胜联盟的区分也可以视作民主或专制。作者的这种分析路径，给世人一种警醒——即民主和专制领导者在本质上是一致的，因此需要普通公民捍卫自己的权利&amp;权力，以遏制这些领导者们的滥权念头和行为。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>本书作者摒弃了民主专制二分法的策略，但某种程度上大获胜联盟&amp;小获胜联盟的区分也可以视作民主或专制。作者的这种分析路径，给世人一种警醒——即民主和专制领导者在本质上是一致的，因此需要普通公民捍卫自己的权利&amp;权力，以遏制这些领导者们的滥权念头和行为。</p>
-]]></content>
     </entry>
 </feed>
