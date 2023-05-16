@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://loveavocado.github.io</id>
     <title>絵里子の世界</title>
-    <updated>2023-04-18T10:09:43.074Z</updated>
+    <updated>2023-05-16T06:39:53.770Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://loveavocado.github.io"/>
     <link rel="self" href="https://loveavocado.github.io/atom.xml"/>
@@ -12,6 +12,13 @@
     <logo>https://loveavocado.github.io/images/avatar.png</logo>
     <icon>https://loveavocado.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, 絵里子の世界</rights>
+    <entry>
+        <title type="html"><![CDATA[随想_1]]></title>
+        <id>https://loveavocado.github.io/post/2M5T3l1jv/</id>
+        <link href="https://loveavocado.github.io/post/2M5T3l1jv/">
+        </link>
+        <updated>2023-05-16T06:39:22.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[麦金农媒介批评理论应用（一）：锐评老白男迈克贝]]></title>
         <id>https://loveavocado.github.io/post/THUS6umAs/</id>
@@ -102,12 +109,5 @@
         <link href="https://loveavocado.github.io/post/za-ping-gun-min-ying-yi-yuan-ting-ye-zheng-dun-shi-jian/">
         </link>
         <updated>2022-01-15T08:10:59.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Attention Deficit Hyperactivity Disorder: A Reading Note]]></title>
-        <id>https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/</id>
-        <link href="https://loveavocado.github.io/post/attention-deficit-hyperactivity-disorder-a-reading-note/">
-        </link>
-        <updated>2021-12-28T04:38:08.000Z</updated>
     </entry>
 </feed>
